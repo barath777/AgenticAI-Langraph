@@ -1,0 +1,13 @@
+{
+    "alert_id": "ALERT009",
+    "application": "BankingApp",
+    "severity": "Critical",
+    "timestamp": "2025-03-14T12:45:00Z",
+    "alert_type": "Security Breach Attempt",
+    "description": "Multiple failed login attempts detected from various IPs.",
+    "affected_services": [
+        "User Authentication"
+    ],
+    "grafana_dashboard": "Security Events",
+    "grafana_panel_id": 11
+}

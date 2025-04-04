@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT003",
+    "application": "BankingApp",
+    "severity": "Medium",
+    "timestamp": "2025-03-14T12:15:00Z",
+    "alert_type": "High Response Time",
+    "description": "API response time exceeded 2 seconds.",
+    "affected_services": [
+        "API Gateway",
+        "Customer Dashboard"
+    ],
+    "grafana_dashboard": "API Performance",
+    "grafana_panel_id": 9
+}

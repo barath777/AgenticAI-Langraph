@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT010",
+    "application": "BankingApp",
+    "severity": "Low",
+    "timestamp": "2025-03-14T12:50:00Z",
+    "alert_type": "Low Disk Space",
+    "description": "Disk space usage exceeded 85% capacity.",
+    "affected_services": [
+        "File Storage",
+        "Logging Service"
+    ],
+    "grafana_dashboard": "Disk Health",
+    "grafana_panel_id": 13
+}

@@ -1,0 +1,13 @@
+{
+    "alert_id": "ALERT008",
+    "application": "BankingApp",
+    "severity": "Medium",
+    "timestamp": "2025-03-14T12:40:00Z",
+    "alert_type": "Unusual Traffic Pattern",
+    "description": "Spike in login attempts detected.",
+    "affected_services": [
+        "User Authentication"
+    ],
+    "grafana_dashboard": "Traffic Analysis",
+    "grafana_panel_id": 14
+}

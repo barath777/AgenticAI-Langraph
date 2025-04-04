@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT007",
+    "application": "BankingApp",
+    "severity": "High",
+    "timestamp": "2025-03-14T12:35:00Z",
+    "alert_type": "Network Latency",
+    "description": "Network latency exceeded 100ms.",
+    "affected_services": [
+        "API Gateway",
+        "External Payment Service"
+    ],
+    "grafana_dashboard": "Network Performance",
+    "grafana_panel_id": 8
+}

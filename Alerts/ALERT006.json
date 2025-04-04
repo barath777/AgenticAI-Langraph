@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT006",
+    "application": "BankingApp",
+    "severity": "Low",
+    "timestamp": "2025-03-14T12:30:00Z",
+    "alert_type": "Slow Disk Performance",
+    "description": "Disk read/write latency higher than threshold.",
+    "affected_services": [
+        "Logging Service",
+        "File Storage"
+    ],
+    "grafana_dashboard": "Disk Performance",
+    "grafana_panel_id": 6
+}

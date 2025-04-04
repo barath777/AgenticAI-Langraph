@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT002",
+    "application": "BankingApp",
+    "severity": "Critical",
+    "timestamp": "2025-03-14T12:10:00Z",
+    "alert_type": "Database Connection Failure",
+    "description": "Application unable to connect to database.",
+    "affected_services": [
+        "Database Queries",
+        "User Login"
+    ],
+    "grafana_dashboard": "Database Health",
+    "grafana_panel_id": 5
+}

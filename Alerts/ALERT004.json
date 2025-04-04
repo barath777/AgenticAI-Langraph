@@ -1,0 +1,13 @@
+{
+    "alert_id": "ALERT004",
+    "application": "BankingApp",
+    "severity": "High",
+    "timestamp": "2025-03-14T12:20:00Z",
+    "alert_type": "Memory Leak",
+    "description": "Memory usage continuously increasing with no release.",
+    "affected_services": [
+        "Transaction Processing"
+    ],
+    "grafana_dashboard": "Memory Usage",
+    "grafana_panel_id": 15
+}

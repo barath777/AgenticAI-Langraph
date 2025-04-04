@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT001",
+    "application": "BankingApp",
+    "severity": "High",
+    "timestamp": "2025-03-14T12:05:00Z",
+    "alert_type": "CPU Spike",
+    "description": "CPU usage exceeded 90% for more than 5 minutes.",
+    "affected_services": [
+        "Transaction Processing",
+        "User Authentication"
+    ],
+    "grafana_dashboard": "CPU Usage",
+    "grafana_panel_id": 12
+}
