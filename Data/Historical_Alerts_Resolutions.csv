@@ -1,0 +1,201 @@
+alert_id,application,alert_timestamp,alert_type,severity,root_cause,resolution_steps,mean_time_to_detect,mean_time_to_resolve,escalated,resolved_by,change_implemented,post_resolution_status
+ALERT-22222,LoanProcessing,2025-01-17 08:26:48,Database Connection Failure,High,Network congestion,Optimize database queries,18,37,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-28230,BankingApp,2024-12-22 08:26:48,Memory Leak,Low,Disk IO bottleneck,Increase memory allocation,12,117,No,Infrastructure Team,Code Fix,Partially Fixed
+ALERT-68575,InsuranceApp,2024-10-27 08:26:48,Memory Leak,Critical,Memory fragmentation,Adjust network routing,16,48,Yes,Support Engineer,Database Indexing,Reoccurred
+ALERT-89796,LoanProcessing,2025-01-24 08:26:48,Memory Leak,High,Network congestion,Increase memory allocation,21,60,No,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-53000,LoanProcessing,2025-01-19 08:26:48,Memory Leak,Medium,Network congestion,Scale horizontally,1,60,Yes,Automated System,None,Resolved
+ALERT-34295,BankingApp,2024-10-06 08:26:48,Slow Response Time,Low,Disk IO bottleneck,Scale horizontally,8,21,No,Support Engineer,Network Rerouting,Reoccurred
+ALERT-57431,BankingApp,2025-03-09 08:26:48,CPU Overload,Critical,Unoptimized queries,Adjust network routing,1,42,Yes,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-48719,InsuranceApp,2024-11-21 08:26:48,Memory Leak,Low,High concurrent users,Increase memory allocation,2,47,No,Automated System,Code Fix,Resolved
+ALERT-74222,BankingApp,2024-10-29 08:26:48,Database Connection Failure,Critical,Network congestion,Adjust network routing,14,90,Yes,Automated System,Database Indexing,Resolved
+ALERT-48710,LoanProcessing,2025-02-08 08:26:48,Slow Response Time,High,Disk IO bottleneck,Adjust network routing,12,62,No,Support Engineer,None,Reoccurred
+ALERT-23189,FraudDetection,2024-11-10 08:26:48,CPU Overload,Low,Unoptimized queries,Scale horizontally,17,33,Yes,Automated System,Code Fix,Resolved
+ALERT-52782,LoanProcessing,2025-01-03 08:26:48,CPU Overload,High,Network congestion,Scale horizontally,15,52,Yes,Automated System,Database Indexing,Partially Fixed
+ALERT-41146,BankingApp,2025-03-12 08:26:48,CPU Overload,Medium,High concurrent users,Optimize database queries,28,91,Yes,Automated System,Code Fix,Reoccurred
+ALERT-49377,LoanProcessing,2024-12-12 08:26:48,High Network Latency,Low,Memory fragmentation,Adjust network routing,9,58,Yes,Automated System,Code Fix,Partially Fixed
+ALERT-82648,InsuranceApp,2024-12-11 08:26:48,CPU Overload,Low,High concurrent users,Increase memory allocation,4,93,Yes,Support Engineer,None,Resolved
+ALERT-36891,FraudDetection,2024-09-27 08:26:48,Memory Leak,Low,Memory fragmentation,Restart service,7,23,No,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-33883,FraudDetection,2024-12-13 08:26:48,Slow Response Time,Low,Network congestion,Adjust network routing,18,63,No,Support Engineer,Code Fix,Partially Fixed
+ALERT-31277,LoanProcessing,2025-01-30 08:26:48,High Network Latency,Critical,Disk IO bottleneck,Adjust network routing,13,74,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-95111,BankingApp,2025-03-06 08:26:48,High Network Latency,Medium,Unoptimized queries,Scale horizontally,15,27,Yes,Automated System,None,Partially Fixed
+ALERT-80121,InsuranceApp,2024-10-05 08:26:48,High Network Latency,Low,High concurrent users,Increase memory allocation,13,34,Yes,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-39059,FraudDetection,2024-11-23 08:26:48,Memory Leak,Medium,High concurrent users,Restart service,24,57,No,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-34368,FraudDetection,2024-11-16 08:26:48,High Network Latency,Medium,Network congestion,Restart service,30,17,No,Support Engineer,Database Indexing,Resolved
+ALERT-55612,BankingApp,2024-12-12 08:26:48,CPU Overload,Medium,Network congestion,Restart service,21,82,Yes,Automated System,Database Indexing,Resolved
+ALERT-11951,LoanProcessing,2024-09-29 08:26:48,CPU Overload,Critical,Network congestion,Restart service,26,115,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-65802,FraudDetection,2024-10-16 08:26:48,High Network Latency,Critical,Disk IO bottleneck,Increase memory allocation,6,70,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-41876,BankingApp,2024-11-05 08:26:48,High Network Latency,Medium,Memory fragmentation,Increase memory allocation,20,103,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-63147,BankingApp,2025-01-06 08:26:48,CPU Overload,Medium,Unoptimized queries,Increase memory allocation,7,114,Yes,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-52174,BankingApp,2025-02-24 08:26:48,Memory Leak,Low,Network congestion,Optimize database queries,29,59,No,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-62770,InsuranceApp,2025-02-15 08:26:48,Memory Leak,Critical,Disk IO bottleneck,Scale horizontally,21,77,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-17137,LoanProcessing,2025-02-17 08:26:48,Slow Response Time,Low,Unoptimized queries,Optimize database queries,8,21,No,Infrastructure Team,None,Reoccurred
+ALERT-35510,FraudDetection,2025-03-04 08:26:48,CPU Overload,Low,High concurrent users,Adjust network routing,18,70,No,Infrastructure Team,Code Fix,Resolved
+ALERT-28879,InsuranceApp,2025-01-06 08:26:48,Memory Leak,Medium,Unoptimized queries,Increase memory allocation,21,29,No,Automated System,Network Rerouting,Reoccurred
+ALERT-92736,LoanProcessing,2025-01-06 08:26:48,Memory Leak,High,Unoptimized queries,Optimize database queries,8,69,No,Support Engineer,None,Partially Fixed
+ALERT-19140,LoanProcessing,2024-12-14 08:26:48,Database Connection Failure,High,Network congestion,Optimize database queries,19,116,No,Automated System,None,Partially Fixed
+ALERT-53487,LoanProcessing,2025-02-12 08:26:48,Slow Response Time,Medium,Network congestion,Increase memory allocation,11,55,Yes,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-74124,InsuranceApp,2025-02-21 08:26:48,CPU Overload,Medium,Unoptimized queries,Adjust network routing,15,85,No,Automated System,Code Fix,Resolved
+ALERT-39826,InsuranceApp,2024-10-18 08:26:48,High Network Latency,Medium,Network congestion,Scale horizontally,2,34,Yes,Automated System,Infrastructure Scaling,Resolved
+ALERT-45605,FraudDetection,2024-10-26 08:26:48,CPU Overload,Low,Disk IO bottleneck,Restart service,28,94,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-92657,BankingApp,2024-10-27 08:26:48,Database Connection Failure,Low,Unoptimized queries,Scale horizontally,14,21,No,Support Engineer,Database Indexing,Resolved
+ALERT-22185,FraudDetection,2024-10-12 08:26:48,CPU Overload,Critical,Unoptimized queries,Scale horizontally,26,88,No,Support Engineer,Code Fix,Partially Fixed
+ALERT-58578,FraudDetection,2025-02-05 08:26:48,Memory Leak,Critical,Unoptimized queries,Adjust network routing,11,7,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-81265,LoanProcessing,2024-12-16 08:26:48,CPU Overload,Low,Disk IO bottleneck,Scale horizontally,4,51,No,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-16491,FraudDetection,2024-10-22 08:26:48,High Network Latency,Low,Unoptimized queries,Adjust network routing,17,9,Yes,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-61606,InsuranceApp,2025-03-17 08:26:48,Memory Leak,High,Network congestion,Adjust network routing,21,12,Yes,Support Engineer,None,Partially Fixed
+ALERT-46535,BankingApp,2024-12-19 08:26:48,Slow Response Time,Low,Unoptimized queries,Scale horizontally,15,51,No,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-15384,InsuranceApp,2025-02-25 08:26:48,Slow Response Time,High,Disk IO bottleneck,Increase memory allocation,15,41,Yes,Automated System,Network Rerouting,Resolved
+ALERT-96379,FraudDetection,2024-11-01 08:26:48,High Network Latency,Medium,Unoptimized queries,Optimize database queries,4,14,Yes,Automated System,Database Indexing,Partially Fixed
+ALERT-59884,FraudDetection,2025-01-13 08:26:48,Database Connection Failure,Low,Disk IO bottleneck,Restart service,17,5,No,Support Engineer,Code Fix,Resolved
+ALERT-13585,BankingApp,2024-12-07 08:26:48,High Network Latency,Low,High concurrent users,Restart service,26,96,Yes,Support Engineer,Network Rerouting,Reoccurred
+ALERT-89659,BankingApp,2025-02-14 08:26:48,Slow Response Time,Medium,Disk IO bottleneck,Optimize database queries,30,37,No,Support Engineer,Code Fix,Reoccurred
+ALERT-52538,FraudDetection,2025-01-28 08:26:48,Database Connection Failure,High,Disk IO bottleneck,Scale horizontally,10,104,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-69775,BankingApp,2024-10-25 08:26:48,CPU Overload,Low,Memory fragmentation,Restart service,29,103,Yes,Infrastructure Team,Code Fix,Resolved
+ALERT-94693,BankingApp,2025-03-18 08:26:48,Slow Response Time,High,Memory fragmentation,Restart service,22,19,Yes,Support Engineer,Network Rerouting,Reoccurred
+ALERT-47267,LoanProcessing,2024-10-10 08:26:48,High Network Latency,High,High concurrent users,Increase memory allocation,28,35,Yes,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-76804,BankingApp,2024-12-06 08:26:48,Slow Response Time,Critical,Unoptimized queries,Restart service,2,60,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-42933,InsuranceApp,2024-12-23 08:26:48,High Network Latency,High,Unoptimized queries,Increase memory allocation,19,69,Yes,Support Engineer,Infrastructure Scaling,Partially Fixed
+ALERT-26554,BankingApp,2024-12-31 08:26:48,Slow Response Time,Low,High concurrent users,Scale horizontally,29,116,No,Support Engineer,Code Fix,Partially Fixed
+ALERT-85728,InsuranceApp,2025-03-10 08:26:48,Database Connection Failure,Low,Unoptimized queries,Restart service,29,71,Yes,Automated System,Network Rerouting,Resolved
+ALERT-59891,LoanProcessing,2024-12-08 08:26:48,Slow Response Time,Medium,Network congestion,Optimize database queries,9,72,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-39962,InsuranceApp,2024-12-06 08:26:48,High Network Latency,High,Unoptimized queries,Increase memory allocation,28,120,Yes,Support Engineer,Code Fix,Resolved
+ALERT-55854,LoanProcessing,2024-11-07 08:26:48,Memory Leak,Low,Network congestion,Optimize database queries,2,64,Yes,Infrastructure Team,Code Fix,Reoccurred
+ALERT-35586,InsuranceApp,2024-11-19 08:26:48,CPU Overload,Medium,Memory fragmentation,Adjust network routing,11,108,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-48959,LoanProcessing,2025-02-24 08:26:48,CPU Overload,High,Memory fragmentation,Scale horizontally,7,103,Yes,Automated System,Database Indexing,Resolved
+ALERT-79184,LoanProcessing,2025-01-15 08:26:48,CPU Overload,Medium,Unoptimized queries,Restart service,1,7,No,Support Engineer,Database Indexing,Partially Fixed
+ALERT-79808,LoanProcessing,2024-11-20 08:26:48,Slow Response Time,Medium,Memory fragmentation,Scale horizontally,15,30,Yes,Automated System,None,Reoccurred
+ALERT-56475,FraudDetection,2024-11-30 08:26:48,CPU Overload,Low,Disk IO bottleneck,Increase memory allocation,7,65,Yes,Automated System,Network Rerouting,Resolved
+ALERT-40676,LoanProcessing,2025-01-27 08:26:48,CPU Overload,Medium,Network congestion,Restart service,19,76,Yes,Infrastructure Team,Database Indexing,Resolved
+ALERT-73076,FraudDetection,2024-12-25 08:26:48,Slow Response Time,Critical,Disk IO bottleneck,Increase memory allocation,22,31,No,Support Engineer,Database Indexing,Resolved
+ALERT-32706,InsuranceApp,2024-10-01 08:26:48,High Network Latency,High,Unoptimized queries,Optimize database queries,11,58,Yes,Infrastructure Team,Network Rerouting,Resolved
+ALERT-21290,LoanProcessing,2025-03-14 08:26:48,Database Connection Failure,Critical,Network congestion,Restart service,2,78,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-68642,InsuranceApp,2025-02-28 08:26:48,High Network Latency,Low,Memory fragmentation,Scale horizontally,5,78,No,Automated System,Network Rerouting,Resolved
+ALERT-67029,InsuranceApp,2024-09-30 08:26:48,Slow Response Time,Critical,Disk IO bottleneck,Restart service,9,86,Yes,Support Engineer,Database Indexing,Partially Fixed
+ALERT-61372,InsuranceApp,2024-12-19 08:26:48,CPU Overload,High,High concurrent users,Optimize database queries,1,36,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-60643,FraudDetection,2024-11-15 08:26:48,Slow Response Time,High,Disk IO bottleneck,Adjust network routing,15,85,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-65213,LoanProcessing,2025-01-25 08:26:48,Slow Response Time,Low,High concurrent users,Restart service,28,83,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-76393,BankingApp,2024-11-05 08:26:48,High Network Latency,Low,Disk IO bottleneck,Increase memory allocation,8,48,No,Support Engineer,Database Indexing,Resolved
+ALERT-67090,InsuranceApp,2025-01-18 08:26:48,Memory Leak,High,Network congestion,Restart service,10,42,Yes,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-21514,FraudDetection,2025-03-11 08:26:48,Database Connection Failure,Medium,Network congestion,Increase memory allocation,24,64,Yes,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-60605,LoanProcessing,2024-12-16 08:26:48,Memory Leak,Low,High concurrent users,Adjust network routing,10,45,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-47778,InsuranceApp,2025-02-25 08:26:48,Database Connection Failure,Critical,Disk IO bottleneck,Scale horizontally,23,68,Yes,Automated System,Network Rerouting,Partially Fixed
+ALERT-60707,LoanProcessing,2024-10-12 08:26:48,High Network Latency,High,Network congestion,Scale horizontally,3,65,No,Automated System,Network Rerouting,Reoccurred
+ALERT-17419,BankingApp,2025-01-13 08:26:48,CPU Overload,High,Disk IO bottleneck,Adjust network routing,1,36,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-94566,FraudDetection,2024-10-18 08:26:48,High Network Latency,High,Unoptimized queries,Restart service,9,24,No,Support Engineer,Code Fix,Partially Fixed
+ALERT-21544,InsuranceApp,2024-12-12 08:26:48,High Network Latency,Low,High concurrent users,Restart service,23,108,Yes,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-68884,FraudDetection,2025-03-17 08:26:48,Slow Response Time,Critical,High concurrent users,Increase memory allocation,21,45,No,Support Engineer,Code Fix,Resolved
+ALERT-76551,InsuranceApp,2025-02-20 08:26:48,Memory Leak,Medium,Memory fragmentation,Adjust network routing,4,113,No,Support Engineer,Network Rerouting,Reoccurred
+ALERT-41068,FraudDetection,2024-11-05 08:26:48,Memory Leak,Medium,Unoptimized queries,Restart service,28,100,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-95587,InsuranceApp,2024-10-15 08:26:48,Slow Response Time,Low,Unoptimized queries,Restart service,7,55,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-97707,BankingApp,2024-11-17 08:26:48,Memory Leak,Critical,Network congestion,Increase memory allocation,7,106,Yes,Support Engineer,Code Fix,Partially Fixed
+ALERT-85914,LoanProcessing,2025-01-11 08:26:48,CPU Overload,High,Disk IO bottleneck,Restart service,16,106,Yes,Support Engineer,Code Fix,Resolved
+ALERT-33232,LoanProcessing,2025-02-24 08:26:48,Memory Leak,High,Unoptimized queries,Scale horizontally,25,28,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-37773,InsuranceApp,2024-11-16 08:26:48,CPU Overload,High,Disk IO bottleneck,Optimize database queries,3,11,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-40095,FraudDetection,2024-10-15 08:26:48,High Network Latency,Low,Disk IO bottleneck,Restart service,8,47,No,Support Engineer,Network Rerouting,Reoccurred
+ALERT-57685,LoanProcessing,2024-10-17 08:26:48,CPU Overload,Critical,Unoptimized queries,Restart service,12,42,Yes,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-30448,InsuranceApp,2025-02-12 08:26:48,Database Connection Failure,Critical,Memory fragmentation,Increase memory allocation,5,101,No,Infrastructure Team,Code Fix,Resolved
+ALERT-64830,FraudDetection,2025-01-22 08:26:48,Database Connection Failure,Critical,Network congestion,Optimize database queries,7,50,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-71395,InsuranceApp,2024-10-24 08:26:48,Database Connection Failure,High,Disk IO bottleneck,Scale horizontally,21,70,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-37197,FraudDetection,2024-09-30 08:26:48,Database Connection Failure,Medium,Memory fragmentation,Optimize database queries,29,24,No,Automated System,Database Indexing,Partially Fixed
+ALERT-53251,InsuranceApp,2024-10-19 08:26:48,Slow Response Time,Critical,Network congestion,Optimize database queries,22,98,Yes,Support Engineer,Code Fix,Partially Fixed
+ALERT-30823,BankingApp,2025-01-25 08:26:48,Database Connection Failure,Low,Disk IO bottleneck,Increase memory allocation,4,39,No,Support Engineer,None,Reoccurred
+ALERT-20010,LoanProcessing,2025-02-20 08:26:48,Database Connection Failure,High,Unoptimized queries,Optimize database queries,22,75,No,Infrastructure Team,Code Fix,Resolved
+ALERT-80190,FraudDetection,2024-12-08 08:26:48,Slow Response Time,High,Unoptimized queries,Restart service,13,53,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-31952,InsuranceApp,2024-12-04 08:26:48,Database Connection Failure,Medium,Disk IO bottleneck,Increase memory allocation,24,10,Yes,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-80590,FraudDetection,2025-01-09 08:26:48,Memory Leak,Medium,Memory fragmentation,Adjust network routing,28,68,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-28473,BankingApp,2025-02-16 08:26:48,Database Connection Failure,Medium,Disk IO bottleneck,Increase memory allocation,20,21,No,Automated System,Database Indexing,Partially Fixed
+ALERT-91721,InsuranceApp,2024-11-12 08:26:48,CPU Overload,Low,High concurrent users,Scale horizontally,6,89,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-79549,BankingApp,2025-02-21 08:26:48,Slow Response Time,Critical,Disk IO bottleneck,Restart service,23,117,No,Support Engineer,Code Fix,Resolved
+ALERT-46993,BankingApp,2024-11-26 08:26:48,Memory Leak,Critical,High concurrent users,Restart service,11,96,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-24452,InsuranceApp,2025-02-01 08:26:48,Slow Response Time,High,Unoptimized queries,Increase memory allocation,13,104,No,Automated System,Code Fix,Partially Fixed
+ALERT-79105,BankingApp,2024-11-24 08:26:48,Memory Leak,Low,Unoptimized queries,Optimize database queries,6,44,Yes,Support Engineer,Network Rerouting,Reoccurred
+ALERT-82086,LoanProcessing,2025-01-29 08:26:48,Database Connection Failure,Low,High concurrent users,Increase memory allocation,20,102,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-82327,InsuranceApp,2025-01-09 08:26:48,Memory Leak,Medium,Unoptimized queries,Increase memory allocation,2,60,Yes,Support Engineer,Database Indexing,Reoccurred
+ALERT-17968,FraudDetection,2024-12-05 08:26:48,Slow Response Time,Medium,Network congestion,Optimize database queries,13,5,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-22588,LoanProcessing,2025-02-18 08:26:48,High Network Latency,Medium,Memory fragmentation,Adjust network routing,6,42,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-38979,BankingApp,2024-09-25 08:26:48,Slow Response Time,Medium,Disk IO bottleneck,Optimize database queries,20,111,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-88173,FraudDetection,2025-02-23 08:26:48,High Network Latency,Medium,Unoptimized queries,Adjust network routing,14,31,Yes,Automated System,None,Reoccurred
+ALERT-72887,FraudDetection,2025-01-20 08:26:48,Slow Response Time,Medium,Network congestion,Restart service,24,18,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-67267,InsuranceApp,2024-11-08 08:26:48,Database Connection Failure,Low,Network congestion,Increase memory allocation,18,117,No,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-16054,InsuranceApp,2025-01-13 08:26:48,CPU Overload,Low,Memory fragmentation,Restart service,24,70,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-51942,InsuranceApp,2025-03-09 08:26:48,Database Connection Failure,Critical,Network congestion,Restart service,9,34,Yes,Support Engineer,Network Rerouting,Resolved
+ALERT-38175,InsuranceApp,2024-12-25 08:26:48,Slow Response Time,Medium,Memory fragmentation,Adjust network routing,6,62,No,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-45471,InsuranceApp,2024-11-12 08:26:48,Database Connection Failure,Low,Network congestion,Increase memory allocation,2,35,No,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-58109,FraudDetection,2024-12-31 08:26:48,Memory Leak,Critical,Disk IO bottleneck,Increase memory allocation,19,110,No,Support Engineer,Code Fix,Reoccurred
+ALERT-27368,BankingApp,2024-10-17 08:26:48,Memory Leak,Low,Network congestion,Optimize database queries,11,106,No,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-81101,InsuranceApp,2024-11-26 08:26:48,Database Connection Failure,Low,Unoptimized queries,Adjust network routing,22,36,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-15986,BankingApp,2025-03-19 08:26:48,CPU Overload,High,Unoptimized queries,Restart service,9,105,No,Automated System,Database Indexing,Reoccurred
+ALERT-32932,LoanProcessing,2025-03-17 08:26:48,Database Connection Failure,Critical,Memory fragmentation,Restart service,1,70,Yes,Infrastructure Team,None,Reoccurred
+ALERT-71368,BankingApp,2024-12-07 08:26:48,Memory Leak,Medium,Memory fragmentation,Optimize database queries,28,39,Yes,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-44373,LoanProcessing,2024-09-27 08:26:48,CPU Overload,High,Network congestion,Restart service,9,91,Yes,Support Engineer,Code Fix,Resolved
+ALERT-95039,BankingApp,2024-12-15 08:26:48,Database Connection Failure,Critical,Disk IO bottleneck,Adjust network routing,22,76,No,Support Engineer,None,Reoccurred
+ALERT-58025,LoanProcessing,2024-11-14 08:26:48,Database Connection Failure,Critical,Memory fragmentation,Increase memory allocation,7,15,No,Infrastructure Team,Code Fix,Partially Fixed
+ALERT-39614,FraudDetection,2024-12-27 08:26:48,High Network Latency,High,High concurrent users,Adjust network routing,12,47,Yes,Automated System,Database Indexing,Reoccurred
+ALERT-47456,FraudDetection,2024-11-06 08:26:48,Memory Leak,High,Disk IO bottleneck,Restart service,11,47,Yes,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-20928,LoanProcessing,2025-02-23 08:26:48,High Network Latency,Critical,Network congestion,Scale horizontally,17,13,No,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-81291,InsuranceApp,2024-12-15 08:26:48,CPU Overload,Medium,Unoptimized queries,Increase memory allocation,24,72,No,Automated System,None,Partially Fixed
+ALERT-92480,InsuranceApp,2024-11-11 08:26:48,Database Connection Failure,High,Unoptimized queries,Scale horizontally,30,72,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-73341,BankingApp,2025-03-09 08:26:48,Slow Response Time,Medium,Disk IO bottleneck,Restart service,18,43,No,Automated System,Code Fix,Resolved
+ALERT-14029,FraudDetection,2024-10-24 08:26:48,Memory Leak,Medium,Network congestion,Restart service,16,5,No,Support Engineer,Code Fix,Resolved
+ALERT-85954,BankingApp,2024-12-26 08:26:48,CPU Overload,High,Memory fragmentation,Restart service,8,111,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-60077,BankingApp,2025-03-02 08:26:48,Slow Response Time,Low,Unoptimized queries,Optimize database queries,1,70,Yes,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-63641,InsuranceApp,2024-09-30 08:26:48,Memory Leak,Medium,Network congestion,Increase memory allocation,18,64,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-50401,LoanProcessing,2024-09-26 08:26:48,Slow Response Time,Critical,Unoptimized queries,Adjust network routing,13,73,Yes,Infrastructure Team,Network Rerouting,Resolved
+ALERT-52688,InsuranceApp,2025-01-10 08:26:48,CPU Overload,Medium,High concurrent users,Scale horizontally,7,118,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-20137,LoanProcessing,2025-02-05 08:26:48,High Network Latency,Low,Unoptimized queries,Restart service,27,72,Yes,Automated System,Network Rerouting,Reoccurred
+ALERT-47142,BankingApp,2025-03-08 08:26:48,Slow Response Time,Medium,Disk IO bottleneck,Increase memory allocation,7,21,No,Support Engineer,None,Resolved
+ALERT-33491,InsuranceApp,2024-11-24 08:26:48,Slow Response Time,Critical,Disk IO bottleneck,Optimize database queries,20,71,Yes,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-26277,LoanProcessing,2024-10-23 08:26:48,Slow Response Time,Medium,Network congestion,Adjust network routing,6,111,No,Infrastructure Team,None,Reoccurred
+ALERT-84746,BankingApp,2024-10-13 08:26:48,High Network Latency,Medium,Disk IO bottleneck,Optimize database queries,22,34,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-11192,BankingApp,2024-11-16 08:26:48,Memory Leak,Medium,High concurrent users,Increase memory allocation,21,116,No,Support Engineer,Database Indexing,Partially Fixed
+ALERT-27814,LoanProcessing,2025-03-11 08:26:48,Memory Leak,Medium,Memory fragmentation,Adjust network routing,26,10,No,Automated System,Network Rerouting,Resolved
+ALERT-18150,InsuranceApp,2024-12-10 08:26:48,CPU Overload,Critical,Memory fragmentation,Increase memory allocation,18,45,No,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-63358,FraudDetection,2025-02-12 08:26:48,High Network Latency,Critical,Memory fragmentation,Increase memory allocation,25,105,Yes,Support Engineer,Database Indexing,Partially Fixed
+ALERT-35155,InsuranceApp,2025-02-25 08:26:48,Slow Response Time,High,High concurrent users,Adjust network routing,24,70,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-42136,LoanProcessing,2024-12-14 08:26:48,Database Connection Failure,High,Network congestion,Adjust network routing,17,77,Yes,Support Engineer,Code Fix,Reoccurred
+ALERT-50823,LoanProcessing,2024-12-07 08:26:48,High Network Latency,Medium,Unoptimized queries,Optimize database queries,13,11,No,Automated System,Code Fix,Resolved
+ALERT-11395,LoanProcessing,2025-01-24 08:26:48,Slow Response Time,Medium,Unoptimized queries,Scale horizontally,8,95,No,Infrastructure Team,None,Partially Fixed
+ALERT-78504,FraudDetection,2025-02-08 08:26:48,Memory Leak,High,Memory fragmentation,Restart service,28,56,Yes,Infrastructure Team,None,Resolved
+ALERT-43366,BankingApp,2025-02-20 08:26:48,CPU Overload,Medium,Disk IO bottleneck,Scale horizontally,14,29,Yes,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-39995,InsuranceApp,2025-01-30 08:26:48,Memory Leak,High,Memory fragmentation,Restart service,3,101,Yes,Infrastructure Team,Network Rerouting,Resolved
+ALERT-64665,FraudDetection,2025-01-09 08:26:48,CPU Overload,Medium,Unoptimized queries,Optimize database queries,27,12,No,Support Engineer,Infrastructure Scaling,Partially Fixed
+ALERT-80673,FraudDetection,2024-10-10 08:26:48,CPU Overload,High,Disk IO bottleneck,Adjust network routing,19,31,No,Infrastructure Team,None,Reoccurred
+ALERT-33473,LoanProcessing,2025-01-26 08:26:48,Slow Response Time,High,High concurrent users,Increase memory allocation,30,39,Yes,Infrastructure Team,Network Rerouting,Resolved
+ALERT-24904,FraudDetection,2024-10-27 08:26:48,High Network Latency,Low,High concurrent users,Optimize database queries,10,19,Yes,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-86250,FraudDetection,2025-03-16 08:26:48,Memory Leak,Medium,Disk IO bottleneck,Adjust network routing,26,54,No,Automated System,Database Indexing,Reoccurred
+ALERT-11813,InsuranceApp,2025-02-09 08:26:48,CPU Overload,Critical,Network congestion,Restart service,17,92,Yes,Infrastructure Team,Code Fix,Partially Fixed
+ALERT-88655,FraudDetection,2024-11-12 08:26:48,CPU Overload,High,Memory fragmentation,Scale horizontally,29,9,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-85896,LoanProcessing,2025-01-13 08:26:48,Slow Response Time,Low,Disk IO bottleneck,Increase memory allocation,3,93,Yes,Infrastructure Team,None,Resolved
+ALERT-13992,BankingApp,2024-09-29 08:26:48,Memory Leak,Low,Network congestion,Adjust network routing,19,74,No,Support Engineer,None,Reoccurred
+ALERT-30652,FraudDetection,2024-11-08 08:26:48,Slow Response Time,High,Memory fragmentation,Optimize database queries,29,46,No,Support Engineer,Code Fix,Partially Fixed
+ALERT-93249,FraudDetection,2024-12-19 08:26:48,High Network Latency,Critical,High concurrent users,Adjust network routing,18,58,Yes,Infrastructure Team,Network Rerouting,Resolved
+ALERT-33473,LoanProcessing,2025-03-08 08:26:48,CPU Overload,Medium,Unoptimized queries,Increase memory allocation,15,96,Yes,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-30770,LoanProcessing,2025-03-03 08:26:48,Database Connection Failure,High,Disk IO bottleneck,Optimize database queries,2,21,Yes,Support Engineer,Code Fix,Resolved
+ALERT-32414,LoanProcessing,2024-10-23 08:26:48,Slow Response Time,Medium,Memory fragmentation,Scale horizontally,24,37,Yes,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-19269,LoanProcessing,2025-03-12 08:26:48,Slow Response Time,Critical,Network congestion,Optimize database queries,3,80,No,Infrastructure Team,Network Rerouting,Resolved
+ALERT-80059,FraudDetection,2025-03-10 08:26:48,Slow Response Time,High,High concurrent users,Optimize database queries,4,55,Yes,Infrastructure Team,Code Fix,Resolved
+ALERT-61340,BankingApp,2025-01-28 08:26:48,Database Connection Failure,High,Network congestion,Optimize database queries,8,21,No,Automated System,Database Indexing,Reoccurred
+ALERT-24476,FraudDetection,2024-12-31 08:26:48,Memory Leak,Critical,Network congestion,Optimize database queries,16,24,Yes,Support Engineer,Network Rerouting,Resolved
+ALERT-29281,LoanProcessing,2024-11-11 08:26:48,Database Connection Failure,Critical,Network congestion,Scale horizontally,14,9,No,Support Engineer,Network Rerouting,Resolved
+ALERT-88797,LoanProcessing,2025-01-14 08:26:48,Database Connection Failure,Medium,Disk IO bottleneck,Restart service,10,66,Yes,Support Engineer,None,Resolved
+ALERT-32599,BankingApp,2025-01-17 08:26:48,CPU Overload,Medium,Network congestion,Scale horizontally,6,112,Yes,Automated System,Network Rerouting,Reoccurred
+ALERT-39156,BankingApp,2024-12-31 08:26:48,Database Connection Failure,Medium,Memory fragmentation,Restart service,13,60,No,Support Engineer,Network Rerouting,Resolved
+ALERT-51059,InsuranceApp,2024-11-12 08:26:48,Slow Response Time,Medium,Network congestion,Adjust network routing,17,8,No,Support Engineer,None,Partially Fixed
+ALERT-20714,FraudDetection,2025-03-10 08:26:48,Memory Leak,Medium,Disk IO bottleneck,Scale horizontally,2,56,No,Support Engineer,Database Indexing,Partially Fixed
+ALERT-35595,BankingApp,2025-01-10 08:26:48,Slow Response Time,Critical,Disk IO bottleneck,Increase memory allocation,17,6,No,Infrastructure Team,None,Resolved
+ALERT-25324,InsuranceApp,2024-10-07 08:26:48,Slow Response Time,Medium,Network congestion,Adjust network routing,25,11,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-43778,FraudDetection,2024-11-10 08:26:48,High Network Latency,Medium,High concurrent users,Scale horizontally,7,41,No,Automated System,Database Indexing,Resolved
+ALERT-78896,LoanProcessing,2024-11-22 08:26:48,CPU Overload,Low,Disk IO bottleneck,Restart service,7,39,No,Automated System,None,Resolved
+ALERT-59388,BankingApp,2025-02-02 08:26:48,Memory Leak,Medium,Memory fragmentation,Increase memory allocation,2,69,No,Infrastructure Team,Network Rerouting,Resolved
+ALERT-73257,BankingApp,2024-10-20 08:26:48,Memory Leak,Critical,Network congestion,Restart service,4,8,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-67466,BankingApp,2025-03-13 08:26:48,Database Connection Failure,Low,Memory fragmentation,Increase memory allocation,28,111,Yes,Infrastructure Team,Code Fix,Partially Fixed
+ALERT-15757,LoanProcessing,2024-11-16 08:26:48,Memory Leak,High,Disk IO bottleneck,Optimize database queries,14,28,No,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-76810,FraudDetection,2024-11-14 08:26:48,Slow Response Time,Low,Disk IO bottleneck,Optimize database queries,9,63,No,Automated System,None,Resolved
+ALERT-47335,FraudDetection,2025-03-19 08:26:48,Slow Response Time,Critical,Unoptimized queries,Restart service,19,104,Yes,Automated System,Network Rerouting,Partially Fixed
+ALERT-12386,BankingApp,2025-01-16 08:26:48,Slow Response Time,Low,Memory fragmentation,Adjust network routing,28,81,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-76426,LoanProcessing,2024-10-08 08:26:48,Slow Response Time,Medium,Network congestion,Scale horizontally,28,26,No,Infrastructure Team,None,Reoccurred
+ALERT-19757,BankingApp,2024-10-14 08:26:48,Database Connection Failure,High,Memory fragmentation,Adjust network routing,15,88,No,Support Engineer,Network Rerouting,Reoccurred
+ALERT-79284,FraudDetection,2024-11-25 08:26:48,Slow Response Time,High,Memory fragmentation,Optimize database queries,8,82,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-32352,LoanProcessing,2025-02-27 08:26:48,High Network Latency,Critical,Disk IO bottleneck,Adjust network routing,19,18,No,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-93992,InsuranceApp,2024-11-29 08:26:48,High Network Latency,Medium,Memory fragmentation,Optimize database queries,22,117,No,Support Engineer,Network Rerouting,Resolved
+ALERT-54734,BankingApp,2024-12-13 08:26:48,Slow Response Time,High,High concurrent users,Increase memory allocation,7,106,Yes,Infrastructure Team,Database Indexing,Resolved
