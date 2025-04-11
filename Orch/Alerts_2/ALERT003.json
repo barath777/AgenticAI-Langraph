@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT003",
+    "application": "PaymentGateway",
+    "severity": "High",
+    "timestamp": "2025-03-14T12:45:00Z",
+    "alert_type": "Deployment Failure",
+    "description": "New production deployment failed due to rollback error. Services may be partially unavailable.",
+    "affected_services": [
+      "Transaction Processing",
+      "Payment Reconciliation"
+    ],
+    "grafana_dashboard": "Deployment Overview",
+    "grafana_panel_id": 3
+}  

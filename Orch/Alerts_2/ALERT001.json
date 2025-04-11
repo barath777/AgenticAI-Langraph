@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT001",
+    "application": "BankingApp",
+    "severity": "Critical",
+    "timestamp": "2025-03-14T11:55:00Z",
+    "alert_type": "Database Connection Failure",
+    "description": "Multiple login attempts failed due to database being unreachable. Likely cause: database server is down.",
+    "affected_services": [
+      "Database Queries",
+      "User Login"
+    ],
+    "grafana_dashboard": "Database Health",
+    "grafana_panel_id": 5
+}
