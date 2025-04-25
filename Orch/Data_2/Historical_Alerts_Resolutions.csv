@@ -1,0 +1,303 @@
+alert_id,application,alert_timestamp,alert_type,severity,root_cause,resolution_steps,mean_time_to_detect,mean_time_to_resolve,escalated,resolved_by,change_implemented,post_resolution_status
+ALERT-27985,NotificationService,03/11/2024 00:00,Delayed Response Time,High,Slow database queries,Optimize DB queries,17,63,No,Infrastructure Team,None,Reoccurred
+ALERT-18151,BankingApp,10/12/2024 00:00,Delayed Response Time,Medium,High server load,Optimize DB queries,5,28,Yes,Automated System,None,Closed
+ALERT-21732,InsuranceApp,04/03/2025 00:00,Service Unavailability,High,Deployment issues breaking services,Restart service automatically,19,96,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-74730,InsuranceApp,21/04/2024 00:00,Database Performance Issues,High,Unoptimized SQL Queries,Scale database resources,9,91,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-74754,BankingApp,18/02/2025 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,24,101,Yes,Automated System,Infrastructure Scaling,Monitoring
+ALERT-84098,PaymentGateway,06/11/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,9,71,No,Support Engineer,Infrastructure Scaling,Partially Fixed
+ALERT-43332,LoanProcessing,16/02/2025 00:00,Database Performance Issues,Critical,High DB connections,Kill long-running queries,11,77,Yes,Infrastructure Team,None,Reoccurred
+ALERT-71558,NotificationService,21/03/2025 00:00,Delayed Response Time,Medium,Backend service delays,Optimize DB queries,17,72,Yes,Automated System,Code Fix,Partially Fixed
+ALERT-71240,InsuranceApp,10/05/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Improve memory management,8,20,Yes,Support Engineer,None,Closed
+ALERT-19470,BankingApp,03/08/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,24,61,Yes,Support Engineer,Code Fix,Monitoring
+ALERT-19063,BankingApp,17/12/2024 00:00,Database Performance Issues,High,Indexing issues,Optimize queries and add indexing,15,106,No,Automated System,Code Fix,Resolved
+ALERT-33600,LoanProcessing,04/12/2024 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,14,64,Yes,Infrastructure Team,None,Closed
+ALERT-93814,NotificationService,04/04/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,11,56,No,Automated System,Database Indexing,Monitoring
+ALERT-73779,LoanProcessing,23/07/2024 00:00,Delayed Response Time,Medium,Network congestion,Scale application infrastructure,14,36,Yes,Automated System,Database Indexing,Resolved
+ALERT-21396,LoanProcessing,29/04/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,8,117,Yes,Support Engineer,Code Fix,Partially Fixed
+ALERT-46911,LoanProcessing,03/10/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Restart affected services,1,57,Yes,Support Engineer,None,Monitoring
+ALERT-98816,InventoryService,04/08/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Rollback recent deployments,21,108,No,Support Engineer,Database Indexing,Monitoring
+ALERT-76375,InventoryService,01/02/2025 00:00,Memory Leak Detected,Medium,High number of background processes,Improve memory management,5,119,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-87672,InventoryService,09/08/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,10,92,No,Support Engineer,Code Fix,Reoccurred
+ALERT-16584,BankingApp,25/04/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,11,49,Yes,Infrastructure Team,None,Reoccurred
+ALERT-67477,NotificationService,08/08/2024 00:00,Service Unavailability,Critical,Network connectivity issues,Restart service automatically,17,93,Yes,Automated System,Code Fix,Monitoring
+ALERT-11354,PaymentGateway,10/01/2025 00:00,Delayed Response Time,Medium,Slow database queries,Optimize DB queries,12,36,No,Support Engineer,Code Fix,Resolved
+ALERT-60572,LoanProcessing,24/07/2024 00:00,Database Performance Issues,High,Indexing issues,Kill long-running queries,21,77,No,Infrastructure Team,Database Indexing,Monitoring
+ALERT-67050,InsuranceApp,03/08/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,8,73,No,Automated System,Infrastructure Scaling,Closed
+ALERT-74891,PaymentGateway,09/01/2025 00:00,Service Unavailability,High,Network connectivity issues,Investigate network issues,17,47,No,Automated System,Database Indexing,Reoccurred
+ALERT-19817,InventoryService,27/11/2024 00:00,Service Unavailability,Critical,Network connectivity issues,Restart service automatically,11,84,Yes,Infrastructure Team,None,Reoccurred
+ALERT-66611,InsuranceApp,24/12/2024 00:00,Delayed Response Time,High,Backend service delays,Optimize DB queries,4,69,Yes,Support Engineer,Infrastructure Scaling,Partially Fixed
+ALERT-22714,BankingApp,29/12/2024 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,19,57,Yes,Support Engineer,Network Rerouting,Monitoring
+ALERT-43530,InventoryService,01/10/2024 00:00,Database Performance Issues,High,High DB connections,Kill long-running queries,2,118,No,Infrastructure Team,Network Rerouting,Closed
+ALERT-82817,NotificationService,16/09/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,14,50,No,Automated System,None,Closed
+ALERT-79124,NotificationService,14/11/2024 00:00,High CPU Usage,Critical,Unexpected traffic spike,Auto-scale infrastructure,7,20,Yes,Infrastructure Team,Database Indexing,Resolved
+ALERT-11604,InventoryService,07/04/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Fix memory leaks in code,16,99,No,Infrastructure Team,None,Closed
+ALERT-82284,NotificationService,25/11/2024 00:00,Database Performance Issues,High,Indexing issues,Kill long-running queries,7,89,No,Support Engineer,None,Monitoring
+ALERT-22528,LoanProcessing,30/01/2025 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,5,84,No,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-90300,InventoryService,25/09/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,19,89,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-55730,InventoryService,05/11/2024 00:00,Delayed Response Time,Medium,High server load,Scale application infrastructure,8,92,No,Automated System,Network Rerouting,Partially Fixed
+ALERT-89985,InventoryService,27/08/2024 00:00,Delayed Response Time,High,Slow database queries,Implement caching mechanisms,15,59,No,Automated System,Code Fix,Partially Fixed
+ALERT-30567,BankingApp,17/05/2024 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,23,26,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-68234,LoanProcessing,10/02/2025 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,13,101,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-72190,BankingApp,19/05/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Scale up backend services,21,22,No,Automated System,Code Fix,Closed
+ALERT-90612,InventoryService,18/02/2025 00:00,Delayed Response Time,Medium,Slow database queries,Implement caching mechanisms,15,58,Yes,Automated System,Code Fix,Resolved
+ALERT-78827,BankingApp,19/06/2024 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,12,95,No,Infrastructure Team,Code Fix,Closed
+ALERT-44901,InventoryService,28/05/2024 00:00,Delayed Response Time,High,High server load,Optimize DB queries,23,110,Yes,Automated System,Database Indexing,Partially Fixed
+ALERT-25109,InventoryService,25/04/2024 00:00,Delayed Response Time,High,Backend service delays,Implement caching mechanisms,23,114,No,Infrastructure Team,Code Fix,Partially Fixed
+ALERT-16936,InsuranceApp,07/07/2024 00:00,Memory Leak Detected,High,High number of background processes,Fix memory leaks in code,18,115,No,Support Engineer,None,Reoccurred
+ALERT-78094,InsuranceApp,09/12/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,12,36,No,Automated System,None,Resolved
+ALERT-36553,LoanProcessing,29/04/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,11,32,Yes,Automated System,Network Rerouting,Partially Fixed
+ALERT-91918,LoanProcessing,02/04/2024 00:00,Service Unavailability,High,Deployment issues breaking services,Rollback recent deployments,23,38,Yes,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-19230,InventoryService,21/11/2024 00:00,Database Performance Issues,Critical,Indexing issues,Scale database resources,20,29,Yes,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-25257,InventoryService,27/03/2025 00:00,Database Performance Issues,Critical,High DB connections,Scale database resources,11,108,No,Automated System,Infrastructure Scaling,Monitoring
+ALERT-25574,NotificationService,12/08/2024 00:00,Service Unavailability,High,Network connectivity issues,Investigate network issues,6,76,Yes,Support Engineer,Network Rerouting,Resolved
+ALERT-29485,InventoryService,14/05/2024 00:00,Delayed Response Time,High,High server load,Implement caching mechanisms,5,95,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-27804,PaymentGateway,16/01/2025 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,1,24,No,Support Engineer,Code Fix,Resolved
+ALERT-56977,InventoryService,15/03/2025 00:00,Database Performance Issues,High,High DB connections,Kill long-running queries,23,29,Yes,Automated System,None,Closed
+ALERT-86923,NotificationService,16/02/2025 00:00,Delayed Response Time,High,Slow database queries,Scale application infrastructure,19,86,No,Infrastructure Team,Code Fix,Monitoring
+ALERT-88863,InsuranceApp,20/03/2025 00:00,Service Unavailability,High,Network connectivity issues,Investigate network issues,5,89,No,Infrastructure Team,Database Indexing,Monitoring
+ALERT-33101,InsuranceApp,18/02/2025 00:00,Delayed Response Time,Medium,High server load,Scale application infrastructure,13,85,Yes,Infrastructure Team,Infrastructure Scaling,Closed
+ALERT-90218,PaymentGateway,13/06/2024 00:00,Delayed Response Time,Medium,High server load,Implement caching mechanisms,18,46,No,Automated System,Code Fix,Closed
+ALERT-89287,BankingApp,17/02/2025 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,15,84,No,Support Engineer,Code Fix,Resolved
+ALERT-54757,LoanProcessing,07/10/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Investigate network issues,5,91,Yes,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-97293,PaymentGateway,07/10/2024 00:00,Memory Leak Detected,High,High number of background processes,Improve memory management,21,99,No,Automated System,Network Rerouting,Partially Fixed
+ALERT-35789,InventoryService,22/05/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,1,68,Yes,Support Engineer,Infrastructure Scaling,Monitoring
+ALERT-59095,InventoryService,06/10/2024 00:00,Delayed Response Time,Medium,Network congestion,Optimize DB queries,11,112,Yes,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-69369,PaymentGateway,18/04/2024 00:00,Database Performance Issues,High,Unoptimized SQL Queries,Scale database resources,6,32,No,Support Engineer,None,Resolved
+ALERT-66046,PaymentGateway,23/11/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Fix memory leaks in code,10,33,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-15605,PaymentGateway,29/12/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,6,42,Yes,Automated System,Database Indexing,Closed
+ALERT-78365,NotificationService,04/12/2024 00:00,Memory Leak Detected,Medium,Unreleased objects in application code,Restart affected services,17,33,Yes,Infrastructure Team,Infrastructure Scaling,Closed
+ALERT-72709,InsuranceApp,11/01/2025 00:00,Service Unavailability,High,Deployment issues breaking services,Rollback recent deployments,12,40,Yes,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-72130,NotificationService,08/08/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Fix memory leaks in code,17,38,Yes,Automated System,Infrastructure Scaling,Monitoring
+ALERT-58369,BankingApp,05/10/2024 00:00,High CPU Usage,Critical,Memory leaks,Optimize queries and code,8,29,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-35194,InsuranceApp,21/03/2025 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,2,73,No,Support Engineer,Code Fix,Reoccurred
+ALERT-70513,InsuranceApp,31/12/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,8,87,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-72459,BankingApp,25/12/2024 00:00,Database Performance Issues,High,Indexing issues,Optimize queries and add indexing,15,22,No,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-57546,NotificationService,05/10/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,21,20,No,Automated System,Network Rerouting,Monitoring
+ALERT-35040,NotificationService,25/06/2024 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,19,97,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-52268,InventoryService,01/05/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,24,61,No,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-95260,LoanProcessing,13/06/2024 00:00,Database Performance Issues,High,Indexing issues,Kill long-running queries,15,84,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-87266,InsuranceApp,24/10/2024 00:00,Database Performance Issues,High,High DB connections,Optimize queries and add indexing,19,52,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-86016,PaymentGateway,11/06/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,2,65,Yes,Automated System,Code Fix,Closed
+ALERT-36897,LoanProcessing,19/04/2024 00:00,Delayed Response Time,Medium,Slow database queries,Scale application infrastructure,14,54,No,Support Engineer,Code Fix,Closed
+ALERT-82546,LoanProcessing,26/05/2024 00:00,Database Performance Issues,High,High DB connections,Optimize queries and add indexing,8,83,Yes,Support Engineer,Infrastructure Scaling,Closed
+ALERT-45250,BankingApp,10/09/2024 00:00,Delayed Response Time,High,High server load,Implement caching mechanisms,4,42,Yes,Automated System,Infrastructure Scaling,Resolved
+ALERT-66895,InsuranceApp,20/12/2024 00:00,Database Performance Issues,Critical,Indexing issues,Optimize queries and add indexing,3,59,No,Infrastructure Team,Network Rerouting,Closed
+ALERT-20388,LoanProcessing,11/10/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Fix memory leaks in code,7,42,Yes,Automated System,None,Reoccurred
+ALERT-27184,BankingApp,18/01/2025 00:00,High CPU Usage,High,Unexpected traffic spike,Optimize queries and code,16,44,No,Support Engineer,Code Fix,Monitoring
+ALERT-18589,LoanProcessing,28/06/2024 00:00,Database Performance Issues,High,High DB connections,Optimize queries and add indexing,18,54,No,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-62957,InventoryService,16/03/2025 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,21,22,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-59218,NotificationService,04/03/2025 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Rollback recent deployments,13,62,Yes,Automated System,Network Rerouting,Reoccurred
+ALERT-19269,InsuranceApp,27/10/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Restart service automatically,21,92,Yes,Automated System,Code Fix,Monitoring
+ALERT-79709,PaymentGateway,27/07/2024 00:00,API Failure - 500 Error Surge,High,Service down,Restart failing microservices,13,106,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-56860,PaymentGateway,11/09/2024 00:00,Delayed Response Time,High,Backend service delays,Implement caching mechanisms,21,76,Yes,Support Engineer,Database Indexing,Monitoring
+ALERT-28994,PaymentGateway,23/06/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Improve memory management,23,107,Yes,Support Engineer,Infrastructure Scaling,Monitoring
+ALERT-75312,InventoryService,03/05/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,6,42,Yes,Support Engineer,None,Closed
+ALERT-32888,InventoryService,05/07/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Scale up backend services,10,77,Yes,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-35582,InventoryService,09/08/2024 00:00,Database Performance Issues,Critical,Unoptimized SQL Queries,Kill long-running queries,12,72,No,Automated System,Code Fix,Resolved
+ALERT-43712,BankingApp,01/07/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Auto-scale infrastructure,16,83,Yes,Infrastructure Team,Infrastructure Scaling,Monitoring
+ALERT-36648,InsuranceApp,23/07/2024 00:00,Database Performance Issues,Critical,Indexing issues,Scale database resources,5,34,No,Automated System,Database Indexing,Monitoring
+ALERT-78572,LoanProcessing,08/01/2025 00:00,High CPU Usage,High,Unexpected traffic spike,Optimize queries and code,14,40,No,Support Engineer,Code Fix,Reoccurred
+ALERT-32900,NotificationService,28/05/2024 00:00,Delayed Response Time,High,Slow database queries,Optimize DB queries,16,78,Yes,Support Engineer,Infrastructure Scaling,Closed
+ALERT-81461,LoanProcessing,28/12/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Auto-scale infrastructure,24,73,No,Support Engineer,Network Rerouting,Closed
+ALERT-90051,LoanProcessing,24/09/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,10,102,No,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-93358,InventoryService,04/01/2025 00:00,Service Unavailability,Critical,Network connectivity issues,Restart service automatically,20,71,Yes,Infrastructure Team,Database Indexing,Monitoring
+ALERT-42159,BankingApp,03/11/2024 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,13,28,Yes,Infrastructure Team,Code Fix,Reoccurred
+ALERT-75535,NotificationService,16/06/2024 00:00,Delayed Response Time,Medium,Slow database queries,Optimize DB queries,23,82,Yes,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-44603,BankingApp,30/09/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,24,115,Yes,Support Engineer,Database Indexing,Partially Fixed
+ALERT-15125,NotificationService,05/06/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Optimize queries and code,7,112,Yes,Support Engineer,None,Reoccurred
+ALERT-56056,InsuranceApp,03/08/2024 00:00,API Failure - 500 Error Surge,High,Service down,Restart failing microservices,1,42,Yes,Automated System,None,Reoccurred
+ALERT-67924,InsuranceApp,15/07/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,14,42,No,Support Engineer,Code Fix,Monitoring
+ALERT-33071,InsuranceApp,03/06/2024 00:00,Service Unavailability,High,Deployment issues breaking services,Restart service automatically,13,35,No,Automated System,Infrastructure Scaling,Resolved
+ALERT-91392,LoanProcessing,15/05/2024 00:00,Delayed Response Time,High,Network congestion,Scale application infrastructure,12,118,Yes,Automated System,Network Rerouting,Partially Fixed
+ALERT-47308,NotificationService,05/07/2024 00:00,Memory Leak Detected,High,High number of background processes,Restart affected services,24,113,No,Automated System,Network Rerouting,Resolved
+ALERT-45837,InsuranceApp,28/03/2025 00:00,Database Performance Issues,Critical,High DB connections,Scale database resources,11,68,Yes,Infrastructure Team,Database Indexing,Monitoring
+ALERT-71989,InsuranceApp,13/06/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Restart service automatically,20,23,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-40062,PaymentGateway,25/03/2025 00:00,High CPU Usage,Medium,Memory leaks,Optimize queries and code,12,112,Yes,Automated System,None,Reoccurred
+ALERT-64940,NotificationService,25/02/2025 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Rollback recent deployments,4,46,No,Automated System,None,Reoccurred
+ALERT-68968,PaymentGateway,25/04/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,8,61,Yes,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-72380,LoanProcessing,15/12/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Scale up backend services,11,119,Yes,Automated System,Network Rerouting,Closed
+ALERT-18356,InsuranceApp,07/10/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,17,116,No,Support Engineer,Network Rerouting,Closed
+ALERT-81512,NotificationService,07/10/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,19,66,No,Automated System,Code Fix,Closed
+ALERT-59444,InventoryService,27/09/2024 00:00,Memory Leak Detected,High,High number of background processes,Fix memory leaks in code,15,48,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-24840,LoanProcessing,11/02/2025 00:00,API Failure - 500 Error Surge,High,Service down,Restart failing microservices,21,90,Yes,Infrastructure Team,Code Fix,Reoccurred
+ALERT-76031,NotificationService,06/02/2025 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,17,76,Yes,Infrastructure Team,None,Monitoring
+ALERT-57901,PaymentGateway,04/05/2024 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Restart service automatically,13,105,Yes,Infrastructure Team,Code Fix,Resolved
+ALERT-70992,InventoryService,15/09/2024 00:00,Database Performance Issues,High,Unoptimized SQL Queries,Scale database resources,9,117,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-71895,InsuranceApp,04/05/2024 00:00,Delayed Response Time,High,Network congestion,Implement caching mechanisms,6,119,No,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-51991,InsuranceApp,09/01/2025 00:00,Memory Leak Detected,Critical,High number of background processes,Improve memory management,20,58,Yes,Infrastructure Team,None,Monitoring
+ALERT-40515,InventoryService,22/06/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Restart failing microservices,13,99,No,Automated System,None,Resolved
+ALERT-74205,PaymentGateway,30/10/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,11,83,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-94061,NotificationService,15/09/2024 00:00,Delayed Response Time,High,Backend service delays,Optimize DB queries,22,87,No,Infrastructure Team,None,Monitoring
+ALERT-41350,LoanProcessing,30/12/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,21,39,No,Support Engineer,Database Indexing,Monitoring
+ALERT-13427,NotificationService,31/08/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,1,71,No,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-82838,InsuranceApp,02/11/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Fix memory leaks in code,23,40,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-72260,InventoryService,07/12/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,18,58,No,Support Engineer,Database Indexing,Resolved
+ALERT-78073,InsuranceApp,29/10/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,2,37,No,Support Engineer,Network Rerouting,Closed
+ALERT-62685,InventoryService,22/01/2025 00:00,High CPU Usage,High,Unexpected traffic spike,Restart impacted services,2,107,Yes,Infrastructure Team,Code Fix,Reoccurred
+ALERT-34031,BankingApp,02/11/2024 00:00,High CPU Usage,Medium,Memory leaks,Auto-scale infrastructure,19,22,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-58695,InventoryService,22/09/2024 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,13,31,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-39526,NotificationService,23/11/2024 00:00,Delayed Response Time,High,High server load,Scale application infrastructure,8,115,Yes,Support Engineer,None,Partially Fixed
+ALERT-11118,LoanProcessing,30/11/2024 00:00,High CPU Usage,Medium,Unexpected traffic spike,Auto-scale infrastructure,8,86,Yes,Support Engineer,Database Indexing,Resolved
+ALERT-52423,LoanProcessing,13/10/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Improve memory management,12,76,Yes,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-64783,InventoryService,02/10/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,17,94,No,Automated System,Code Fix,Partially Fixed
+ALERT-78164,BankingApp,13/08/2024 00:00,Service Unavailability,Critical,Network connectivity issues,Restart service automatically,18,32,Yes,Automated System,None,Partially Fixed
+ALERT-51807,LoanProcessing,03/03/2025 00:00,High CPU Usage,High,Unexpected traffic spike,Optimize queries and code,15,93,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-74327,BankingApp,18/05/2024 00:00,Database Performance Issues,High,Indexing issues,Optimize queries and add indexing,18,104,Yes,Infrastructure Team,Database Indexing,Closed
+ALERT-11505,NotificationService,16/11/2024 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Restart service automatically,22,100,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-20780,LoanProcessing,17/06/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,6,41,Yes,Support Engineer,None,Resolved
+ALERT-99242,LoanProcessing,30/11/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,24,58,Yes,Support Engineer,Code Fix,Monitoring
+ALERT-84629,InsuranceApp,03/08/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Improve memory management,3,84,No,Support Engineer,None,Reoccurred
+ALERT-78118,PaymentGateway,16/12/2024 00:00,High CPU Usage,Critical,"Inefficient code (infinite loops, unoptimized queries)",Auto-scale infrastructure,14,104,No,Support Engineer,Code Fix,Monitoring
+ALERT-81762,NotificationService,08/08/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,14,63,No,Automated System,Code Fix,Monitoring
+ALERT-45182,BankingApp,04/11/2024 00:00,Database Performance Issues,High,High DB connections,Kill long-running queries,22,74,No,Support Engineer,Database Indexing,Closed
+ALERT-62949,InventoryService,10/12/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Rollback recent deployments,20,28,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-70840,InsuranceApp,03/10/2024 00:00,Database Performance Issues,Critical,High DB connections,Scale database resources,24,88,Yes,Infrastructure Team,Database Indexing,Partially Fixed
+ALERT-80250,NotificationService,30/07/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Improve memory management,5,72,No,Support Engineer,Infrastructure Scaling,Closed
+ALERT-36335,InsuranceApp,05/07/2024 00:00,Delayed Response Time,High,High server load,Implement caching mechanisms,20,67,Yes,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-51907,InventoryService,10/04/2024 00:00,Database Performance Issues,Critical,High DB connections,Kill long-running queries,19,34,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-84953,LoanProcessing,27/06/2024 00:00,Memory Leak Detected,Medium,Unreleased objects in application code,Improve memory management,11,38,No,Support Engineer,Code Fix,Resolved
+ALERT-22761,InventoryService,01/11/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,10,37,No,Support Engineer,None,Closed
+ALERT-34948,NotificationService,09/01/2025 00:00,Delayed Response Time,High,Network congestion,Optimize DB queries,13,22,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-84071,LoanProcessing,25/07/2024 00:00,Delayed Response Time,Medium,Backend service delays,Optimize DB queries,12,88,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-97197,InsuranceApp,02/08/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,13,77,Yes,Infrastructure Team,None,Reoccurred
+ALERT-70151,PaymentGateway,22/06/2024 00:00,Delayed Response Time,Medium,High server load,Implement caching mechanisms,24,105,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-90021,InsuranceApp,06/03/2025 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,6,88,Yes,Automated System,Network Rerouting,Resolved
+ALERT-39584,InsuranceApp,04/06/2024 00:00,High CPU Usage,Critical,Memory leaks,Auto-scale infrastructure,6,40,No,Support Engineer,Network Rerouting,Closed
+ALERT-50133,PaymentGateway,05/10/2024 00:00,Service Unavailability,Critical,Network connectivity issues,Rollback recent deployments,18,29,Yes,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-88072,PaymentGateway,09/04/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,5,27,No,Infrastructure Team,Network Rerouting,Partially Fixed
+ALERT-61726,PaymentGateway,05/11/2024 00:00,High CPU Usage,High,Memory leaks,Optimize queries and code,3,78,No,Support Engineer,Database Indexing,Closed
+ALERT-32416,InventoryService,17/06/2024 00:00,High CPU Usage,Medium,Unexpected traffic spike,Restart impacted services,3,83,No,Automated System,Network Rerouting,Resolved
+ALERT-98098,LoanProcessing,03/01/2025 00:00,Service Unavailability,High,Network connectivity issues,Investigate network issues,4,45,Yes,Support Engineer,Database Indexing,Reoccurred
+ALERT-59663,InsuranceApp,21/09/2024 00:00,High CPU Usage,Critical,Unexpected traffic spike,Optimize queries and code,6,44,Yes,Infrastructure Team,Database Indexing,Resolved
+ALERT-59896,InsuranceApp,28/07/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Restart affected services,23,48,Yes,Support Engineer,Code Fix,Reoccurred
+ALERT-67440,PaymentGateway,14/10/2024 00:00,Delayed Response Time,High,High server load,Optimize DB queries,19,113,Yes,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-62923,BankingApp,16/06/2024 00:00,Service Unavailability,High,Deployment issues breaking services,Investigate network issues,22,35,No,Infrastructure Team,Code Fix,Reoccurred
+ALERT-83753,InventoryService,20/12/2024 00:00,Delayed Response Time,High,High server load,Scale application infrastructure,7,106,No,Infrastructure Team,Code Fix,Closed
+ALERT-38551,InventoryService,20/11/2024 00:00,Delayed Response Time,Medium,Network congestion,Scale application infrastructure,8,101,No,Automated System,Database Indexing,Reoccurred
+ALERT-96516,BankingApp,14/07/2024 00:00,Delayed Response Time,Medium,Network congestion,Scale application infrastructure,19,31,No,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-99917,InventoryService,13/08/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,22,113,No,Infrastructure Team,Code Fix,Monitoring
+ALERT-66359,BankingApp,24/02/2025 00:00,API Failure - 500 Error Surge,Critical,Service down,Restart failing microservices,4,103,Yes,Support Engineer,None,Partially Fixed
+ALERT-64317,LoanProcessing,14/09/2024 00:00,High CPU Usage,Medium,Unexpected traffic spike,Restart impacted services,16,29,Yes,Automated System,Code Fix,Partially Fixed
+ALERT-20934,BankingApp,30/09/2024 00:00,Delayed Response Time,Medium,Backend service delays,Optimize DB queries,23,88,No,Support Engineer,Network Rerouting,Resolved
+ALERT-76694,LoanProcessing,09/08/2024 00:00,Delayed Response Time,High,Slow database queries,Scale application infrastructure,2,115,Yes,Automated System,Network Rerouting,Partially Fixed
+ALERT-18108,NotificationService,23/03/2025 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Investigate network issues,3,105,Yes,Automated System,Code Fix,Monitoring
+ALERT-42037,InventoryService,19/03/2025 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,8,49,Yes,Automated System,None,Resolved
+ALERT-96630,InventoryService,04/03/2025 00:00,High CPU Usage,Medium,Unexpected traffic spike,Restart impacted services,9,99,Yes,Automated System,None,Resolved
+ALERT-71956,NotificationService,19/03/2025 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,6,24,No,Infrastructure Team,Code Fix,Monitoring
+ALERT-35129,InsuranceApp,15/05/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,24,45,No,Automated System,Infrastructure Scaling,Resolved
+ALERT-27459,LoanProcessing,04/11/2024 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Restart affected services,13,21,Yes,Automated System,Code Fix,Closed
+ALERT-58564,LoanProcessing,23/08/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Auto-scale infrastructure,3,24,No,Automated System,Infrastructure Scaling,Resolved
+ALERT-50399,BankingApp,27/01/2025 00:00,Memory Leak Detected,Medium,High number of background processes,Fix memory leaks in code,8,90,No,Support Engineer,Network Rerouting,Resolved
+ALERT-62419,InventoryService,08/06/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,7,65,No,Automated System,Network Rerouting,Resolved
+ALERT-54765,PaymentGateway,01/08/2024 00:00,Delayed Response Time,Medium,Slow database queries,Scale application infrastructure,22,84,No,Automated System,Network Rerouting,Closed
+ALERT-73783,BankingApp,05/07/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,20,49,No,Automated System,None,Reoccurred
+ALERT-99935,NotificationService,28/06/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Fix memory leaks in code,16,96,Yes,Infrastructure Team,Code Fix,Closed
+ALERT-39917,NotificationService,08/05/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Restart affected services,19,93,No,Support Engineer,Infrastructure Scaling,Closed
+ALERT-65848,BankingApp,20/03/2025 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,22,27,Yes,Infrastructure Team,Infrastructure Scaling,Resolved
+ALERT-22469,LoanProcessing,12/03/2025 00:00,Delayed Response Time,High,Network congestion,Optimize DB queries,1,106,Yes,Infrastructure Team,Code Fix,Monitoring
+ALERT-78625,InventoryService,16/01/2025 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Restart service automatically,12,74,No,Automated System,None,Closed
+ALERT-36777,InsuranceApp,10/11/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Fix memory leaks in code,18,92,Yes,Support Engineer,Infrastructure Scaling,Monitoring
+ALERT-87160,PaymentGateway,04/06/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Restart impacted services,8,38,No,Automated System,Code Fix,Closed
+ALERT-96882,NotificationService,21/08/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Restart affected services,12,105,No,Support Engineer,Database Indexing,Resolved
+ALERT-95055,InsuranceApp,13/01/2025 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Auto-scale infrastructure,3,20,Yes,Automated System,Database Indexing,Closed
+ALERT-59138,InventoryService,14/11/2024 00:00,Service Unavailability,High,Deployment issues breaking services,Rollback recent deployments,19,118,No,Support Engineer,Infrastructure Scaling,Partially Fixed
+ALERT-48394,LoanProcessing,15/09/2024 00:00,Delayed Response Time,Medium,High server load,Scale application infrastructure,8,83,No,Support Engineer,Network Rerouting,Resolved
+ALERT-33910,LoanProcessing,09/04/2024 00:00,Delayed Response Time,High,Backend service delays,Implement caching mechanisms,20,94,Yes,Infrastructure Team,Infrastructure Scaling,Closed
+ALERT-39316,BankingApp,12/05/2024 00:00,Service Unavailability,High,Network connectivity issues,Rollback recent deployments,16,46,Yes,Infrastructure Team,Database Indexing,Monitoring
+ALERT-30061,LoanProcessing,26/02/2025 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Improve memory management,5,120,No,Support Engineer,None,Resolved
+ALERT-30876,PaymentGateway,14/06/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,4,62,No,Automated System,Database Indexing,Partially Fixed
+ALERT-10342,NotificationService,10/06/2024 00:00,Delayed Response Time,Medium,Backend service delays,Optimize DB queries,12,45,Yes,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-81392,InventoryService,30/06/2024 00:00,Database Performance Issues,Critical,Unoptimized SQL Queries,Optimize queries and add indexing,21,118,No,Automated System,Code Fix,Monitoring
+ALERT-68205,NotificationService,17/04/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,3,35,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-64975,NotificationService,03/08/2024 00:00,High CPU Usage,Critical,Memory leaks,Optimize queries and code,21,71,Yes,Support Engineer,Network Rerouting,Closed
+ALERT-13253,LoanProcessing,04/12/2024 00:00,Service Unavailability,High,Network connectivity issues,Investigate network issues,2,32,Yes,Support Engineer,Database Indexing,Closed
+ALERT-42440,InsuranceApp,14/11/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,13,119,Yes,Automated System,None,Closed
+ALERT-61819,InsuranceApp,03/12/2024 00:00,Database Performance Issues,Critical,High DB connections,Scale database resources,10,88,Yes,Infrastructure Team,Network Rerouting,Closed
+ALERT-22490,InsuranceApp,13/11/2024 00:00,Delayed Response Time,High,Slow database queries,Scale application infrastructure,1,27,No,Infrastructure Team,None,Partially Fixed
+ALERT-73046,NotificationService,25/09/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Scale up backend services,15,84,No,Support Engineer,Network Rerouting,Closed
+ALERT-72501,LoanProcessing,18/01/2025 00:00,Memory Leak Detected,High,Unreleased objects in application code,Improve memory management,3,100,Yes,Support Engineer,None,Monitoring
+ALERT-11573,InventoryService,16/11/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,5,112,No,Support Engineer,None,Closed
+ALERT-12581,InsuranceApp,31/12/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Improve memory management,2,62,Yes,Infrastructure Team,None,Partially Fixed
+ALERT-92386,LoanProcessing,11/05/2024 00:00,High CPU Usage,High,Memory leaks,Restart impacted services,18,93,No,Automated System,Code Fix,Partially Fixed
+ALERT-59284,BankingApp,22/04/2024 00:00,API Failure - 500 Error Surge,High,Service down,Restart failing microservices,14,53,No,Automated System,Network Rerouting,Reoccurred
+ALERT-27830,InsuranceApp,08/12/2024 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,5,93,Yes,Infrastructure Team,None,Closed
+ALERT-13192,LoanProcessing,12/01/2025 00:00,Delayed Response Time,Medium,High server load,Implement caching mechanisms,2,68,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-87950,InsuranceApp,07/09/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Restart affected services,15,24,No,Automated System,Code Fix,Partially Fixed
+ALERT-38750,NotificationService,14/01/2025 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,6,57,Yes,Automated System,None,Closed
+ALERT-48557,NotificationService,03/03/2025 00:00,Delayed Response Time,High,Slow database queries,Optimize DB queries,23,28,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-16948,PaymentGateway,21/10/2024 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,6,24,No,Infrastructure Team,Infrastructure Scaling,Monitoring
+ALERT-62260,LoanProcessing,05/03/2025 00:00,Service Unavailability,High,Network connectivity issues,Rollback recent deployments,3,83,Yes,Automated System,Database Indexing,Partially Fixed
+ALERT-62020,InsuranceApp,14/05/2024 00:00,Memory Leak Detected,High,High number of background processes,Fix memory leaks in code,14,119,Yes,Support Engineer,Network Rerouting,Closed
+ALERT-80783,InventoryService,01/04/2025 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Investigate network issues,23,46,Yes,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-86443,NotificationService,05/01/2025 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,2,28,Yes,Automated System,Infrastructure Scaling,Closed
+ALERT-86018,InsuranceApp,19/02/2025 00:00,Service Unavailability,High,Network connectivity issues,Restart service automatically,20,47,No,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-38940,InventoryService,30/04/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Restart impacted services,5,80,Yes,Infrastructure Team,Code Fix,Monitoring
+ALERT-91394,BankingApp,15/09/2024 00:00,Delayed Response Time,Medium,High server load,Implement caching mechanisms,14,110,No,Automated System,Network Rerouting,Partially Fixed
+ALERT-37726,LoanProcessing,06/11/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,10,114,Yes,Support Engineer,None,Resolved
+ALERT-98197,LoanProcessing,09/08/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Restart service automatically,21,108,Yes,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-65766,NotificationService,18/11/2024 00:00,Memory Leak Detected,Critical,Unreleased objects in application code,Fix memory leaks in code,15,48,No,Support Engineer,Database Indexing,Reoccurred
+ALERT-94716,NotificationService,15/07/2024 00:00,Database Performance Issues,High,Indexing issues,Kill long-running queries,10,59,Yes,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-85534,InsuranceApp,01/05/2024 00:00,Delayed Response Time,High,Slow database queries,Optimize DB queries,17,117,Yes,Support Engineer,Code Fix,Resolved
+ALERT-64458,LoanProcessing,10/08/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Restart impacted services,7,40,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-22974,InsuranceApp,19/03/2025 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Investigate network issues,17,57,Yes,Automated System,Network Rerouting,Reoccurred
+ALERT-20258,InventoryService,28/07/2024 00:00,Service Unavailability,High,Network connectivity issues,Restart service automatically,24,118,Yes,Automated System,Database Indexing,Closed
+ALERT-23965,BankingApp,31/07/2024 00:00,Delayed Response Time,Medium,Slow database queries,Scale application infrastructure,14,75,No,Automated System,None,Partially Fixed
+ALERT-95099,InsuranceApp,16/02/2025 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Scale up backend services,13,54,Yes,Automated System,None,Reoccurred
+ALERT-26112,BankingApp,14/09/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Restart impacted services,8,106,No,Infrastructure Team,Network Rerouting,Resolved
+ALERT-17646,NotificationService,28/11/2024 00:00,Delayed Response Time,High,Network congestion,Scale application infrastructure,18,55,No,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-37844,BankingApp,16/10/2024 00:00,High CPU Usage,Critical,Memory leaks,Auto-scale infrastructure,5,72,No,Support Engineer,Database Indexing,Monitoring
+ALERT-52854,InventoryService,22/08/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,23,29,Yes,Automated System,Database Indexing,Reoccurred
+ALERT-66381,LoanProcessing,17/08/2024 00:00,Database Performance Issues,Critical,High DB connections,Optimize queries and add indexing,13,20,Yes,Infrastructure Team,Database Indexing,Resolved
+ALERT-67105,InventoryService,30/09/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Fix memory leaks in code,20,50,Yes,Automated System,Code Fix,Reoccurred
+ALERT-82208,InsuranceApp,12/11/2024 00:00,Memory Leak Detected,High,Unreleased objects in application code,Restart affected services,5,86,Yes,Infrastructure Team,Database Indexing,Resolved
+ALERT-14763,LoanProcessing,01/04/2025 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,21,44,No,Support Engineer,None,Closed
+ALERT-84597,LoanProcessing,25/12/2024 00:00,High CPU Usage,High,"Inefficient code (infinite loops, unoptimized queries)",Optimize queries and code,18,109,No,Support Engineer,Network Rerouting,Monitoring
+ALERT-50904,NotificationService,09/10/2024 00:00,Delayed Response Time,High,Slow database queries,Scale application infrastructure,8,112,Yes,Automated System,Network Rerouting,Closed
+ALERT-23153,InsuranceApp,11/04/2024 00:00,Delayed Response Time,Medium,High server load,Scale application infrastructure,19,80,No,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-94691,BankingApp,21/12/2024 00:00,Service Unavailability,Critical,Network connectivity issues,Rollback recent deployments,15,21,No,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-60386,InventoryService,30/03/2025 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Scale up backend services,16,118,Yes,Infrastructure Team,Code Fix,Resolved
+ALERT-71149,PaymentGateway,17/08/2024 00:00,High CPU Usage,High,Memory leaks,Restart impacted services,20,21,Yes,Infrastructure Team,Infrastructure Scaling,Monitoring
+ALERT-24088,BankingApp,16/03/2025 00:00,Database Performance Issues,High,Indexing issues,Kill long-running queries,15,73,Yes,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-78443,PaymentGateway,07/05/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Fix memory leaks in code,1,56,Yes,Infrastructure Team,Infrastructure Scaling,Monitoring
+ALERT-74715,PaymentGateway,13/10/2024 00:00,High CPU Usage,Medium,Memory leaks,Optimize queries and code,22,28,No,Infrastructure Team,Network Rerouting,Closed
+ALERT-65232,BankingApp,04/03/2025 00:00,High CPU Usage,Medium,Memory leaks,Restart impacted services,20,67,No,Automated System,Infrastructure Scaling,Reoccurred
+ALERT-26604,InventoryService,22/05/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Improve memory management,1,24,No,Infrastructure Team,None,Reoccurred
+ALERT-83541,InventoryService,31/05/2024 00:00,Database Performance Issues,Critical,Unoptimized SQL Queries,Kill long-running queries,13,67,No,Support Engineer,Database Indexing,Partially Fixed
+ALERT-59210,InsuranceApp,09/06/2024 00:00,API Failure - 500 Error Surge,High,High API traffic exceeding rate limits,Restart failing microservices,10,119,No,Infrastructure Team,Code Fix,Closed
+ALERT-75027,NotificationService,22/10/2024 00:00,High CPU Usage,Medium,Memory leaks,Optimize queries and code,9,65,No,Automated System,Network Rerouting,Reoccurred
+ALERT-29880,NotificationService,06/07/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Scale up backend services,19,55,Yes,Support Engineer,Code Fix,Reoccurred
+ALERT-59000,LoanProcessing,04/06/2024 00:00,Database Performance Issues,High,Unoptimized SQL Queries,Scale database resources,14,75,Yes,Automated System,Infrastructure Scaling,Partially Fixed
+ALERT-33271,BankingApp,23/07/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Restart affected services,7,65,Yes,Support Engineer,Network Rerouting,Resolved
+ALERT-99622,InsuranceApp,24/12/2024 00:00,High CPU Usage,High,Memory leaks,Auto-scale infrastructure,22,89,No,Automated System,None,Closed
+ALERT-75436,PaymentGateway,04/09/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,7,98,No,Automated System,Code Fix,Partially Fixed
+ALERT-59983,InventoryService,23/02/2025 00:00,Delayed Response Time,Medium,Slow database queries,Optimize DB queries,1,83,Yes,Infrastructure Team,Infrastructure Scaling,Partially Fixed
+ALERT-44528,BankingApp,20/02/2025 00:00,Delayed Response Time,Medium,Backend service delays,Scale application infrastructure,1,82,No,Automated System,Database Indexing,Partially Fixed
+ALERT-36663,InsuranceApp,15/09/2024 00:00,Database Performance Issues,High,High DB connections,Scale database resources,9,107,Yes,Automated System,Code Fix,Partially Fixed
+ALERT-21313,InsuranceApp,07/05/2024 00:00,Database Performance Issues,High,Indexing issues,Scale database resources,5,84,No,Support Engineer,Code Fix,Closed
+ALERT-94858,InsuranceApp,20/02/2025 00:00,Database Performance Issues,High,Unoptimized SQL Queries,Optimize queries and add indexing,14,32,No,Support Engineer,Network Rerouting,Reoccurred
+ALERT-62400,LoanProcessing,07/07/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,1,31,Yes,Automated System,Network Rerouting,Resolved
+ALERT-30019,PaymentGateway,28/06/2024 00:00,Database Performance Issues,High,High DB connections,Kill long-running queries,19,117,No,Support Engineer,None,Resolved
+ALERT-60694,BankingApp,24/07/2024 00:00,API Failure - 500 Error Surge,Critical,Service down,Restart failing microservices,24,72,No,Infrastructure Team,None,Monitoring
+ALERT-90441,LoanProcessing,01/09/2024 00:00,High CPU Usage,High,Unexpected traffic spike,Optimize queries and code,2,112,Yes,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-39928,PaymentGateway,04/07/2024 00:00,Service Unavailability,Critical,Deployment issues breaking services,Restart service automatically,4,112,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-67974,LoanProcessing,12/06/2024 00:00,High CPU Usage,Critical,Unexpected traffic spike,Auto-scale infrastructure,13,39,No,Infrastructure Team,Code Fix,Resolved
+ALERT-93744,PaymentGateway,18/01/2025 00:00,API Failure - 500 Error Surge,Critical,High API traffic exceeding rate limits,Restart failing microservices,10,63,No,Automated System,None,Closed
+ALERT-36349,InsuranceApp,01/07/2024 00:00,Delayed Response Time,Medium,Network congestion,Scale application infrastructure,17,78,No,Infrastructure Team,None,Closed
+ALERT-46078,LoanProcessing,29/04/2024 00:00,Delayed Response Time,High,Backend service delays,Scale application infrastructure,7,45,No,Infrastructure Team,None,Partially Fixed
+ALERT-30561,PaymentGateway,12/05/2024 00:00,Service Unavailability,High,Server crash or unexpected shutdown,Restart service automatically,23,69,Yes,Infrastructure Team,Network Rerouting,Reoccurred
+ALERT-37244,NotificationService,05/06/2024 00:00,API Failure - 500 Error Surge,High,Service down,Scale up backend services,4,64,No,Infrastructure Team,Database Indexing,Resolved
+ALERT-37758,InsuranceApp,25/04/2024 00:00,High CPU Usage,High,Memory leaks,Restart impacted services,21,84,No,Support Engineer,Network Rerouting,Partially Fixed
+ALERT-29660,BankingApp,11/04/2024 00:00,Memory Leak Detected,Medium,High number of background processes,Fix memory leaks in code,22,37,No,Automated System,None,Partially Fixed
+ALERT-19967,LoanProcessing,01/11/2024 00:00,Database Performance Issues,High,High DB connections,Kill long-running queries,16,32,Yes,Automated System,Code Fix,Resolved
+ALERT-43035,InsuranceApp,12/09/2024 00:00,Memory Leak Detected,Medium,Unreleased objects in application code,Fix memory leaks in code,1,99,No,Automated System,Database Indexing,Resolved
+ALERT-36582,InventoryService,14/07/2024 00:00,High CPU Usage,Medium,Unexpected traffic spike,Optimize queries and code,2,52,No,Automated System,Network Rerouting,Resolved
+ALERT-87392,BankingApp,30/10/2024 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Investigate network issues,22,30,No,Support Engineer,Network Rerouting,Monitoring
+ALERT-99664,InsuranceApp,11/01/2025 00:00,Delayed Response Time,High,Network congestion,Optimize DB queries,13,97,No,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-24418,PaymentGateway,01/03/2025 00:00,High CPU Usage,Medium,"Inefficient code (infinite loops, unoptimized queries)",Auto-scale infrastructure,17,35,No,Infrastructure Team,Infrastructure Scaling,Reoccurred
+ALERT-69919,InsuranceApp,17/10/2024 00:00,Database Performance Issues,Critical,Indexing issues,Kill long-running queries,15,77,Yes,Infrastructure Team,Database Indexing,Reoccurred
+ALERT-80574,BankingApp,12/02/2025 00:00,Database Performance Issues,High,Indexing issues,Optimize queries and add indexing,7,109,Yes,Infrastructure Team,Database Indexing,Closed
+ALERT-28544,NotificationService,01/03/2025 00:00,Memory Leak Detected,Critical,High number of background processes,Restart affected services,22,30,No,Support Engineer,None,Closed
+ALERT-59615,NotificationService,16/09/2024 00:00,Service Unavailability,Critical,Server crash or unexpected shutdown,Investigate network issues,15,46,No,Support Engineer,None,Partially Fixed
+ALERT-15194,InsuranceApp,10/11/2024 00:00,Memory Leak Detected,Critical,High number of background processes,Fix memory leaks in code,3,103,No,Infrastructure Team,Code Fix,Closed
+ALERT-21732,InsuranceApp,2025-04-23 09:50:00,Service Unavailability,High,Deployment issues breaking services,Restart service automatically,19,96,Yes,Support Engineer,Infrastructure Scaling,Reoccurred
+ALERT-27985,NotificationService,2025-04-23 09:55:00,Service Unavailability,High,Slow database queries,Optimize DB queries,17,63,No,Infrastructure Team,None,Reoccurred

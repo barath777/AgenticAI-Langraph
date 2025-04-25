@@ -1,0 +1,51 @@
+deployment_id,application,version,deployed_by,deployment_timestamp,deployment_status,rollback_version,affected_modules,reason_for_deployment,cpu_usage_post_deploy,memory_usage_post_deploy,api_failures,error_logs_generated,network_latency_ms
+DEPLOY-1001,InsuranceApp,2.5.0,Automated Pipeline,19/02/2025 08:26,Partial Rollback,3.4.1,API Gateway,Security Patch,51.76,45.13,8,23,3258
+DEPLOY-1002,FraudDetection,5.5.1,DevOps Team,03/02/2025 08:26,Failed,1.0.2,Auth,Performance Optimization,89.8,52.34,0,9,972
+DEPLOY-1003,FraudDetection,3.2.9,Automated Pipeline,10/03/2025 08:26,Partial Rollback,1.5.7,Transaction,Bug Fix,52.59,33.36,9,24,1634
+DEPLOY-1004,InsuranceApp,1.6.0,DevOps Team,14/01/2025 08:26,Failed,3.2.8,Analytics,Feature Upgrade,25.23,47.68,4,19,2363
+DEPLOY-1005,LoanProcessing,2.8.8,DevOps Team,03/02/2025 08:26,Partial Rollback,1.4.9,Database,Security Patch,79.57,62.6,7,17,2551
+DEPLOY-1006,CustomerSupport,2.3.3,Automated Pipeline,30/01/2025 08:26,Successful,NULL,Auth,Security Patch,72.97,46.1,10,19,2239
+DEPLOY-1007,CustomerSupport,4.2.6,DevOps Team,27/01/2025 08:26,Successful,NULL,Analytics,Performance Optimization,49.03,70.29,8,19,1590
+DEPLOY-1008,FraudDetection,5.2.7,Automated Pipeline,12/02/2025 08:26,Partial Rollback,1.6.7,API Gateway,Performance Optimization,45.23,30.8,4,26,890
+DEPLOY-1009,CustomerSupport,2.9.9,Automated Pipeline,08/02/2025 08:26,Failed,3.8.4,Database,Security Patch,54.43,71.61,6,1,3331
+DEPLOY-1010,FraudDetection,3.7.6,Automated Pipeline,08/02/2025 08:26,Successful,NULL,Analytics,Feature Upgrade,69.82,87.63,10,21,2958
+DEPLOY-1011,CustomerSupport,5.1.1,DevOps Team,16/03/2025 08:26,Successful,NULL,Database,Feature Upgrade,57.26,48.24,5,35,2115
+DEPLOY-1012,InsuranceApp,3.9.3,Automated Pipeline,12/03/2025 08:26,Successful,NULL,Auth,Bug Fix,32.99,57.55,1,5,2302
+DEPLOY-1013,LoanProcessing,1.2.6,DevOps Team,28/01/2025 08:26,Partial Rollback,3.4.2,Analytics,Bug Fix,73.78,20.32,10,7,2199
+DEPLOY-1014,InsuranceApp,1.4.0,Automated Pipeline,24/01/2025 08:26,Successful,NULL,Auth,Bug Fix,72.59,55.3,7,26,3463
+DEPLOY-1015,LoanProcessing,4.3.7,Automated Pipeline,07/03/2025 08:26,Successful,NULL,Auth,Bug Fix,57.8,27.47,4,9,4570
+DEPLOY-1016,CustomerSupport,1.3.9,DevOps Team,15/02/2025 08:26,Partial Rollback,3.3.8,API Gateway,Security Patch,45.62,53.5,8,17,4338
+DEPLOY-1017,LoanProcessing,4.4.1,Automated Pipeline,18/03/2025 08:26,Failed,1.1.2,Transaction,Feature Upgrade,59.54,89.17,7,30,3748
+DEPLOY-1018,BankingApp,4.8.8,DevOps Team,31/01/2025 08:26,Partial Rollback,2.8.9,API Gateway,Performance Optimization,88.92,56.45,1,3,1511
+DEPLOY-1019,CustomerSupport,5.5.2,DevOps Team,24/01/2025 08:26,Partial Rollback,2.9.0,Analytics,Feature Upgrade,40.97,81.29,3,21,4596
+DEPLOY-1020,LoanProcessing,1.8.0,Release Engineer,28/02/2025 08:26,Partial Rollback,1.9.3,Analytics,Feature Upgrade,63.01,77.5,3,23,3464
+DEPLOY-1021,BankingApp,3.4.3,DevOps Team,24/02/2025 08:26,Failed,2.8.0,Transaction,Performance Optimization,56.7,24.48,9,29,4591
+DEPLOY-1022,FraudDetection,5.5.8,Automated Pipeline,07/03/2025 08:26,Failed,1.2.0,Transaction,Security Patch,84.86,84.78,8,2,3840
+DEPLOY-1023,BankingApp,2.9.1,Automated Pipeline,27/01/2025 08:26,Successful,NULL,API Gateway,Feature Upgrade,87.98,79.17,6,1,2281
+DEPLOY-1024,FraudDetection,2.7.4,DevOps Team,17/03/2025 08:26,Partial Rollback,1.9.4,Database,Feature Upgrade,23.17,79.9,0,26,2626
+DEPLOY-1025,FraudDetection,4.4.5,Release Engineer,09/03/2025 08:26,Partial Rollback,2.2.2,Database,Bug Fix,72.18,46.37,3,36,3101
+DEPLOY-1026,FraudDetection,1.1.5,DevOps Team,10/02/2025 08:26,Partial Rollback,1.0.5,Transaction,Security Patch,82.72,71.8,0,39,4992
+DEPLOY-1027,InsuranceApp,1.3.8,Automated Pipeline,30/01/2025 08:26,Failed,3.0.9,Transaction,Performance Optimization,50.76,35.27,4,6,2216
+DEPLOY-1028,BankingApp,5.1.5,Release Engineer,25/03/2025 08:26,Partial Rollback,3.9.8,Transaction,Performance Optimization,40.77,88.12,7,17,4438
+DEPLOY-1029,InsuranceApp,1.3.7,DevOps Team,01/04/2025 08:26,Successful,NULL,API Gateway,Feature Upgrade,71.43,71.62,3,23,1335
+DEPLOY-1030,CustomerSupport,1.8.9,Automated Pipeline,04/01/2025 08:26,Partial Rollback,3.8.9,Transaction,Security Patch,31.1,74.01,0,32,3205
+DEPLOY-1031,BankingApp,5.2.1,Release Engineer,23/01/2025 08:26,Successful,NULL,Auth,Performance Optimization,87.33,79.32,7,39,1118
+DEPLOY-1032,BankingApp,1.7.2,Release Engineer,31/03/2025 08:26,Successful,NULL,Auth,Feature Upgrade,43.88,22.62,4,25,1622
+DEPLOY-1033,LoanProcessing,5.4.2,Release Engineer,31/03/2025 08:26,Successful,NULL,API Gateway,Bug Fix,78.58,64.53,1,10,3658
+DEPLOY-1034,InsuranceApp,5.6.1,Automated Pipeline,02/03/2025 08:26,Successful,NULL,Database,Performance Optimization,85.86,31.5,3,36,3164
+DEPLOY-1035,LoanProcessing,2.5.3,Release Engineer,28/01/2025 08:26,Successful,NULL,Database,Performance Optimization,78.34,46.91,7,32,1564
+DEPLOY-1036,FraudDetection,4.5.9,Automated Pipeline,16/03/2025 08:26,Partial Rollback,1.7.9,Auth,Feature Upgrade,84.12,83.94,3,16,3393
+DEPLOY-1037,LoanProcessing,3.9.9,Automated Pipeline,21/02/2025 08:26,Failed,3.9.0,Transaction,Feature Upgrade,28.2,20.27,7,8,912
+DEPLOY-1038,LoanProcessing,1.3.0,Automated Pipeline,08/02/2025 08:26,Partial Rollback,2.0.8,API Gateway,Feature Upgrade,51.67,35.74,10,2,4303
+DEPLOY-1039,FraudDetection,3.8.8,DevOps Team,03/01/2025 08:26,Failed,3.0.0,Transaction,Bug Fix,40.28,48.49,6,28,3470
+DEPLOY-1040,BankingApp,1.2.4,Automated Pipeline,01/02/2025 08:26,Partial Rollback,3.4.8,Database,Security Patch,25.77,31.47,9,1,3255
+DEPLOY-1041,CustomerSupport,3.6.3,Release Engineer,04/03/2025 08:26,Partial Rollback,2.7.9,Database,Performance Optimization,22.84,75.02,4,22,4490
+DEPLOY-1042,FraudDetection,1.7.4,Automated Pipeline,07/03/2025 08:26,Partial Rollback,1.0.6,Database,Feature Upgrade,55.68,36.75,7,36,4869
+DEPLOY-1043,LoanProcessing,2.1.7,Automated Pipeline,08/02/2025 08:26,Partial Rollback,3.1.6,Database,Bug Fix,49.81,59.06,0,21,4270
+DEPLOY-1044,BankingApp,2.4.4,Release Engineer,22/02/2025 08:26,Failed,2.4.3,Analytics,Security Patch,42.58,50.55,1,38,4730
+DEPLOY-1045,FraudDetection,4.5.9,Automated Pipeline,26/03/2025 08:26,Successful,NULL,Auth,Feature Upgrade,23.32,30.62,4,30,1212
+DEPLOY-1046,LoanProcessing,3.9.6,Automated Pipeline,22/02/2025 08:26,Failed,2.9.1,Auth,Bug Fix,25.37,51.25,0,19,2197
+DEPLOY-1047,CustomerSupport,1.6.2,Release Engineer,04/02/2025 08:26,Partial Rollback,3.2.7,Analytics,Bug Fix,26.97,50.19,0,7,1560
+DEPLOY-1048,InsuranceApp,1.0.0,DevOps Team,08/02/2025 08:26,Failed,3.1.8,API Gateway,Performance Optimization,28.77,83.55,10,33,1940
+DEPLOY-1049,BankingApp,1.3.5,Automated Pipeline,28/02/2025 08:26,Partial Rollback,1.9.3,API Gateway,Security Patch,83.4,73.25,7,36,1888
+DEPLOY-1050,InsuranceApp,1.5.8,Release Engineer,14/02/2025 08:26,Partial Rollback,2.3.1,Transaction,Bug Fix,44.88,77.5,8,37,943
