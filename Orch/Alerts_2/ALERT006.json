@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT006",
+    "application": "LoanProcessingSystem",
+    "severity": "High",
+    "timestamp": "2025-04-23T10:10:00Z",
+    "alert_type": "Database Performance Issues",
+    "description": "Detected slow database response times exceeding acceptable thresholds. Queries taking longer than 5 seconds to return results.",
+    "affected_services": [
+      "Loan Application Review",
+      "Eligibility Checks"
+    ],
+    "grafana_dashboard": "Database Performance",
+    "grafana_panel_id": 7
+}

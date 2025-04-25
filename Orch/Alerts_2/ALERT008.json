@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT008",
+    "application": "BillingService",
+    "severity": "Critical",
+    "timestamp": "2025-04-23T10:20:00Z",
+    "alert_type": "API Failure - 500 Error Surge",
+    "description": "Surge in 500 Internal Server Error responses observed from BillingService APIs. More than 25% of requests failing over the past 5 minutes.",
+    "affected_services": [
+      "Invoice Generation",
+      "Payment Confirmation"
+    ],
+    "grafana_dashboard": "API Error Trends",
+    "grafana_panel_id": 10
+}

@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT005",
+    "application": "CustomerPortal",
+    "severity": "Medium",
+    "timestamp": "2025-04-23T10:05:00Z",
+    "alert_type": "Delayed Response Time",
+    "description": "API response time exceeded 2 seconds for more than 20% of requests in the last 10 minutes. Possible backend latency or high load.",
+    "affected_services": [
+      "User Dashboard",
+      "Profile Management"
+    ],
+    "grafana_dashboard": "API Performance Metrics",
+    "grafana_panel_id": 9
+}

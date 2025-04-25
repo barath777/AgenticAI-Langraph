@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT007",
+    "application": "RecommendationEngine",
+    "severity": "Critical",
+    "timestamp": "2025-04-23T10:15:00Z",
+    "alert_type": "Memory Leak Detected",
+    "description": "Memory usage exceeded 90% and continues to rise. Possible memory leak in the RecommendationEngine service. Restart or fix may be required.",
+    "affected_services": [
+      "Product Suggestions",
+      "User Personalization"
+    ],
+    "grafana_dashboard": "Memory Utilization",
+    "grafana_panel_id": 11
+}

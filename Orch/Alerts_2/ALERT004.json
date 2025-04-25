@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT004",
+    "application": "AnalyticsEngine",
+    "severity": "High",
+    "timestamp": "2025-04-23T10:00:00Z",
+    "alert_type": "High CPU Usage",
+    "description": "AnalyticsEngine server CPU usage exceeded 95% consistently over the past 15 minutes. Performance degradation likely for analytics-related tasks.",
+    "affected_services": [
+      "Report Generation",
+      "Real-time Data Processing"
+    ],
+    "grafana_dashboard": "Analytics Server Metrics",
+    "grafana_panel_id": 12
+}
