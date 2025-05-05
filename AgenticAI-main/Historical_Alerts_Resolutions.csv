@@ -1,0 +1,31 @@
+alert_id,application,alert_timestamp,alert_type,severity,root_cause,resolution_steps,mean_time_to_detect,mean_time_to_resolve,escalated,resolved_by,change_implemented,post_resolution_status
+ALERT-22222,BankingApp,2025-01-17 08:26:48,Database Connection Failure,High,Database down,Restart DB server and verify logs,15,40,Yes,DB Admin,Auto-restart enabled,Resolved
+ALERT-11234,BankingApp,2025-02-12 09:45:00,Database Connection Failure,High,Firewall misconfig,Allow traffic on DB port 5432,20,30,Yes,Infra Team,Firewall rules updated,Resolved
+ALERT-99887,LoanProcessing,2025-01-25 07:55:00,Database Connection Failure,High,DB overloaded,Add DB read replicas,18,37,No,Support Engineer,Infrastructure Scaling,Resolved
+ALERT-22345,InventoryService,2025-03-01 11:10:00,High CPU Usage,Medium,Multiple background jobs,Reduce job frequency,12,22,No,System Admin,Job scheduler adjusted,Resolved
+ALERT-30000,LoanProcessing,2025-01-02 01:00:00,Queue Delay,Medium,High load,Apply patch,23,53,Yes,Infra Team,Auto-scaling enabled,Resolved
+ALERT-30001,InventoryService,2025-01-03 04:00:00,Cache Misses,Medium,High load,Scale instance,26,49,No,DB Admin,Config file patched,Resolved
+ALERT-30002,BillingApp,2025-01-03 16:00:00,Memory Leak,Medium,Loop issue,Clear cache,27,49,No,SRE Team,Alert thresholds changed,Resolved
+ALERT-30003,InventoryService,2025-01-04 19:00:00,Disk I/O Bottleneck,Low,Expired cert,Reconfigure,12,54,No,System Admin,Config file patched,Resolved
+ALERT-30004,RiskEngine,2025-01-05 22:00:00,Memory Leak,High,Loop issue,Apply patch,13,58,Yes,DevOps,Alert thresholds changed,Resolved
+ALERT-30005,InventoryService,2025-01-07 07:00:00,Queue Delay,Medium,Network lag,Clear cache,26,37,Yes,SRE Team,Config file patched,Resolved
+ALERT-30006,LoanProcessing,2025-01-07 14:00:00,Disk I/O Bottleneck,Low,Network lag,Apply patch,28,28,Yes,Infra Team,Config file patched,Resolved
+ALERT-30007,BillingApp,2025-01-09 00:00:00,SSL Certificate Expiry,Critical,Network lag,Scale instance,20,56,Yes,DB Admin,Config file patched,Resolved
+ALERT-30008,BillingApp,2025-01-09 20:00:00,Cache Misses,Critical,Loop issue,Clear cache,5,24,No,DevOps,Rule updated,Resolved
+ALERT-30009,InventoryService,2025-01-11 07:00:00,Service Timeout,Low,Network lag,Restart service,23,42,No,Infra Team,Alert thresholds changed,Resolved
+ALERT-30010,BillingApp,2025-01-11 14:00:00,SSL Certificate Expiry,Critical,High load,Restart service,30,50,No,DB Admin,Alert thresholds changed,Resolved
+ALERT-30011,UserAuth,2025-01-12 21:00:00,Disk I/O Bottleneck,High,High load,Scale instance,18,33,No,DB Admin,Rule updated,Resolved
+ALERT-30012,LoanProcessing,2025-01-14 06:00:00,Memory Leak,Medium,High load,Clear cache,17,24,Yes,Support Engineer,Auto-scaling enabled,Resolved
+ALERT-30013,RiskEngine,2025-01-15 01:00:00,Disk I/O Bottleneck,Medium,Loop issue,Scale instance,9,41,Yes,System Admin,Rule updated,Resolved
+ALERT-30014,InventoryService,2025-01-16 04:00:00,Queue Delay,Medium,Misconfigured setting,Restart service,28,49,Yes,SRE Team,Auto-scaling enabled,Resolved
+ALERT-30015,RiskEngine,2025-01-17 04:00:00,Memory Leak,Medium,Expired cert,Apply patch,23,60,Yes,Infra Team,Rule updated,Resolved
+ALERT-30016,BillingApp,2025-01-17 21:00:00,SSL Certificate Expiry,Critical,Misconfigured setting,Restart service,25,21,No,DevOps,Config file patched,Resolved
+ALERT-30017,BillingApp,2025-01-18 11:00:00,Cache Misses,High,Network lag,Restart service,29,59,No,SRE Team,Config file patched,Resolved
+ALERT-30018,InventoryService,2025-01-19 10:00:00,Service Timeout,Low,Network lag,Scale instance,29,42,No,Infra Team,Rule updated,Resolved
+ALERT-30019,RiskEngine,2025-01-20 22:00:00,SSL Certificate Expiry,Critical,Network lag,Clear cache,17,25,Yes,System Admin,Alert thresholds changed,Resolved
+ALERT-30020,InventoryService,2025-01-21 16:00:00,Service Timeout,Low,Misconfigured setting,Reconfigure,23,33,No,DB Admin,Rule updated,Resolved
+ALERT-30021,RiskEngine,2025-01-22 12:00:00,Queue Delay,Low,Expired cert,Restart service,14,59,No,SRE Team,Auto-scaling enabled,Resolved
+ALERT-30022,InventoryService,2025-01-23 18:00:00,Cache Misses,High,Loop issue,Scale instance,15,29,No,Infra Team,Alert thresholds changed,Resolved
+ALERT-30023,UserAuth,2025-01-25 03:00:00,SSL Certificate Expiry,High,Expired cert,Clear cache,23,17,Yes,SRE Team,Alert thresholds changed,Resolved
+ALERT-30024,InventoryService,2025-01-25 18:00:00,Service Timeout,Medium,Expired cert,Restart service,9,35,No,DB Admin,Alert thresholds changed,Resolved
+ALERT-30025,LoanProcessing,2025-01-27 03:00:00,Memory Leak,Medium,Misconfigured setting,Apply patch,13,17,No,DB Admin,Rule updated,Resolved

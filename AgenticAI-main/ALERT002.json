@@ -1,0 +1,14 @@
+{
+    "alert_id": "ALERT002",
+    "application": "InventoryService",
+    "severity": "Warning",
+    "timestamp": "2025-03-14T12:25:00Z",
+    "alert_type": "High CPU Usage",
+    "description": "Application server CPU usage exceeded 90% for the last 10 minutes.",
+    "affected_services": [
+      "Order Processing",
+      "Inventory Sync"
+    ],
+    "grafana_dashboard": "Server Metrics",
+    "grafana_panel_id": 8
+}

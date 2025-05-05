@@ -1,0 +1,13 @@
+{
+    "alert_id": "ALERT004",
+    "application": "Login App",
+    "severity": "Critical",
+    "timestamp": "2025-04-21T12:25:00Z",
+    "alert_type": "Network Error",
+    "description": "Login Failed due to Network issue",
+    "affected_services": [
+      "Login Service"      
+    ],
+    "grafana_dashboard": "Server Metrics",
+    "grafana_panel_id": 8
+}

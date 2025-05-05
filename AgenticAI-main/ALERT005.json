@@ -1,0 +1,9 @@
+{"alert_id":"ALERT005",
+"application":"Login App",
+"severity":"Critical",
+"timestamp":"2025-04-29T07:12:16.342Z",
+"alert_type":"Login Error",
+"description":"Server error during login: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017",
+"affected_services":["Login Service"],
+"grafana_dashboard":"",
+"grafana_panel_id":null}
